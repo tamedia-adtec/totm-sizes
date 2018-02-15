@@ -57,7 +57,7 @@ export default {
 
     'inside-quarter': {
         dfp: {
-            sizes : []
+            sizes : [[300,250]]
         },
         appnexus: {
             sizes : []
