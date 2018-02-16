@@ -10,7 +10,7 @@ export default {
 
   'inside-full': {
       dfp: {
-          sizes : [[320,416],[336,280],[760,420],[994,550]]
+          sizes : [[320,416],[760,420],[994,550]]
       },
       appnexus: {
           sizes : [320,416]
@@ -36,7 +36,6 @@ export default {
   },
 
 
-
     'outside-right': {
         dfp: {
             sizes : [[500,1000]]
@@ -45,7 +44,6 @@ export default {
             sizes : [[500,1000]]
         }
     },
-
 
     'outside-left': {
       dfp: {
