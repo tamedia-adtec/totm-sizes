@@ -6,16 +6,16 @@ export default {
       },
       appnexus: {
           sizes : [300;250]
-  },
-
+  }
+},
   'inside-full': {
       dfp: {
           sizes : [[320,416],[760,420],[994,550]]
       },
       appnexus: {
           sizes : [320,416]
-  },
-
+  }
+},
 
   'gallery': {
       dfp: {
@@ -48,12 +48,12 @@ export default {
     'outside-left': {
       dfp: {
           sizes : [160,600]]
-      },
-    }
+      }
+    },
 
     'content-ad': {
         forcedSizes : {
             all : []
         }
-    }
+    },
 }

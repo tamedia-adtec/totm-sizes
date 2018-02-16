@@ -9,12 +9,21 @@ export default {
         }
     },
 
-    'outside-right': {
+    'inside-full': {
         dfp: {
-            sizes : [[500,1000]]
+            sizes : [320,416]
         },
         appnexus: {
-            sizes : [[500,1000]]
+            sizes : [320,416]
+    },
+ }
+
+    'outside-right': {
+        dfp: {
+            sizes : [500,1000]
+        },
+        appnexus: {
+            sizes : [500,1000]
         }
     },
 
