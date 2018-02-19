@@ -5,9 +5,9 @@ export default {
           sizes : [[320,416], [640,400]]
       },
       appnexus: {
-          sizes : [320,416]
-  },
-}
+          sizes :[[320,416]]
+  }
+},
    'inside-quarter': {
           dfp: {
               sizes : [[300,600]]

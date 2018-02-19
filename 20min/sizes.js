@@ -5,7 +5,7 @@ export default {
           sizes : [[760, 190],[300, 250], [336, 280]]
       },
       appnexus: {
-          sizes : [300;250]
+          sizes : [[300,250]]
   }
 },
   'inside-full': {
@@ -13,7 +13,7 @@ export default {
           sizes : [[320,416],[760,420],[994,550]]
       },
       appnexus: {
-          sizes : [320,416]
+          sizes : [[320,416]]
   }
 },
 
@@ -47,7 +47,7 @@ export default {
 
     'outside-left': {
       dfp: {
-          sizes : [160,600]]
+          sizes : [[160,600]]
       }
     },
 

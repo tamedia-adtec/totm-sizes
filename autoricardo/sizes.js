@@ -2,7 +2,7 @@ export default {
 
       'content-ad': {
         dfp: {
-            sizes : [278,40]
+            sizes : [[278,40]]
         }
 
     },
@@ -10,7 +10,7 @@ export default {
 
     'outside-right-pos': {
         dfp: {
-            sizes : [300,100]
+            sizes : [[300,100]]
         }
       },
 }
