@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 
     'outside-right-pos': {
         dfp: {
