@@ -7,7 +7,6 @@ export default {
 
     },
 
-
     'outside-right-pos': {
         dfp: {
             sizes : [[300,100]]
