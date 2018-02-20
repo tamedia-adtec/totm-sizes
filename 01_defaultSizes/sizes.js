@@ -1,32 +1,21 @@
 module.exports = {
 
     'inside-full-top': {
-
         options : {
           loadingRatio : 0.66
         },
-
-        dfp: {
-            sizes: [[320,50], [320,64], [320, 160], [728,90], [970,250], [994,118], [994,250]]
-        },
-
-        appnexus: {
-            sizes: [[994, 250], [994, 118], [970, 250], [728, 90], [320, 160], [320, 64], [320, 50]]
+        sizes : {
+            dfp : [[320,50], [320,64], [320, 160], [728,90], [970,250], [994,118], [994,250]],
+            appnexus : [[994, 250], [994, 118], [970, 250], [728, 90], [320, 160], [320, 64], [320, 50]]
         }
     },
-
     'inside-full': {
-
         options : {
             loadingRatio : 0.66
         },
-
-        dfp: {
-            sizes: [[300, 250], [320, 50], [320, 64], [320, 160], [336, 280], [728, 90], [970, 250], [994, 118], [994, 250]]
-        },
-
-        appnexus: {
-            sizes: [[994, 250], [970, 250],[728, 90],[300, 250], [320, 160], [320, 50],[320, 64]]
+        sizes : {
+            dfp : [[300, 250], [320, 50], [320, 64], [320, 160], [336, 280], [728, 90], [970, 250], [994, 118], [994, 250]],
+            appnexus : [[994, 250], [970, 250],[728, 90],[300, 250], [320, 160], [320, 50],[320, 64]]
         },
 
         forcedSizes: {
@@ -37,40 +26,31 @@ module.exports = {
     },
 
     'inside-half': {
-        dfp: {
-            sizes : []
-        },
-        appnexus: {
-            sizes : []
+        sizes : {
+            dfp: [],
+            appnexus : []
         }
     },
 
     'gallery': {
-        dfp: {
-            sizes: []
-        },
-        appnexus: {
-            sizes: []
+        sizes : {
+            dfp: [],
+            appnexus : []
         }
     },
 
 
     'inside-quarter': {
-        dfp: {
-            sizes : [[300,250]]
-        },
-        appnexus: {
-            sizes : [300,250]
+        sizes : {
+            dfp: [[300,250]],
+            appnexus : [[300,250]]
         }
     },
 
-
     'outside-right-pos': {
-        dfp: {
-            sizes : []
-        },
-        appnexus: {
-            sizes : []
+        sizes : {
+            dfp: [],
+            appnexus : []
         }
     },
 
@@ -78,27 +58,21 @@ module.exports = {
         options : {
             percentageViewable : 50
         },
-        dfp: {
-            sizes : [[160, 600], [245, 770], [300, 600]]
-        },
-        appnexus: {
-            sizes : [[160, 600], [245, 770], [300, 600]]
+        sizes : {
+            dfp: [[160, 600], [245, 770], [300, 600]],
+            appnexus : [[160, 600], [245, 770], [300, 600]]
         }
     },
     'outside-left': {
-        dfp: {
-            sizes : []
-        },
-        appnexus: {
-            sizes : []
+        sizes : {
+            dfp: [],
+            appnexus : []
         }
     },
     'content-ad': {
-        dfp: {
-            sizes : []
-        },
-        appnexus: {
-            sizes : []
+        sizes : {
+            dfp: [],
+            appnexus : []
         }
     },
-}
+};

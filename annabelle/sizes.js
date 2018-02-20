@@ -1,20 +1,15 @@
 module.exports = {
-
       'inside-quarter': {
-        dfp: {
-            sizes : [[300,600]]
-        },
-        appnexus: {
-            sizes : [[300,600]]
-        }
+          sizes : {
+              dfp: [[300,600]],
+              appnexus : [[300,600]]
+          }
     },
 
     'inside-full': {
-        dfp: {
-            sizes : [[320,416]]
-        },
-        appnexus: {
-            sizes : [[320,416]]
-    },
- }
- }
+        sizes : {
+            dfp: [[320,416]],
+            appnexus : [[320,416]]
+        }
+    }
+ };

@@ -1,15 +1,16 @@
 module.exports = {
 
       'content-ad': {
-        dfp: {
-            sizes : [[278,40]]
-        }
-
+          sizes : {
+              dfp: [[278,40]],
+              appnexus : []
+          }
     },
 
     'outside-right-pos': {
-        dfp: {
-            sizes : [[300,100]]
+        sizes : {
+            dfp: [[300,100]],
+            appnexus : []
         }
-      },
-}
+      }
+};
