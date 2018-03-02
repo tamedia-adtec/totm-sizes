@@ -17,18 +17,7 @@ module.exports = {
         }
     },
 
-    'inside-quarter': {
-        sizes: {
-            dfp: [[278, 40], [278, 41], [278, 70]],
-            appnexus: []
-        },
 
-        blockedSizes : {
-          dfp: [[300, 250]],
-          appnexus: [[300, 250]]
-        }
-
-    },
 
     'outside-right' : {
         blockedSizes : {
