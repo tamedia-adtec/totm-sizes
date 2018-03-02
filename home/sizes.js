@@ -19,5 +19,13 @@ module.exports = {
             dfp: [[235,120]],
             appnexus : []
         }
+      },
+
+    'outside-right': {
+        // remove 500x1000 ADT-865
+        blockedSizes : {
+            dfp: [[500,1000]],
+            appnexus : [[500,1000]]
+        }
       }
 };
