@@ -22,7 +22,7 @@ module.exports = {
 
     'inside-half': {
         sizes : {
-            dfp: [[468, 400]],
+            dfp: [[468, 400],[470,470]],
             appnexus : [[468, 400]]
         }
     },

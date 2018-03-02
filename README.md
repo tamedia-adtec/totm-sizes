@@ -20,7 +20,7 @@ There is one default size config (**01_defaultSizes**). These sizes will be avai
           appnexus: [[994, 250], [994, 118],[300, 250]]
         },   
         
-        blockSizes : {
+        blockedSizes : {
           dfp: [[994, 250]],
           appnexus: [[994, 250]]
         },
@@ -38,7 +38,7 @@ There is one default size config (**01_defaultSizes**). These sizes will be avai
 * **dfp:** Sizes that are pushed to doubleclick.
 * **appnexus:** Sizes that are pushed to appnexus
 
-### blockSizes 
+### blockedSizes 
 * **dfp** Sizes that are blocked for dfp (only usefull in page-size config)
 * **appnexus** Sizes that are blocked for appnexus (only usefull in page-size config)
 

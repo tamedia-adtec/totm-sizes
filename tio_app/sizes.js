@@ -1,4 +1,13 @@
 module.exports = {
+
+    'overlay' : {
+        sizes : {
+            dfp : [[1, 1], [320, 480], [480, 320], [768, 1024], [1024, 768], [1239, 800], [1920, 1080]],
+            appnexus : []
+        }
+    },
+
+
     // add extra sizes PP-664, ADT-395
     'inside-full-top': {
         sizes: {
