@@ -64,6 +64,17 @@ module.exports = {
         forcedSizes : {
             all : [[278,40]]
         }
+    },
+
+    'inside-quarter-servicebox-pos' : {
+        sizes : {
+            dfp : [],
+            appnexus : []
+        },
+
+        forcedSizes : {
+            all : [[278,70]]
+        }
     }
 
 };
