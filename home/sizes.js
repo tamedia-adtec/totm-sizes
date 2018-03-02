@@ -7,7 +7,7 @@ module.exports = {
           appnexus: []
       },
 
-      blockSizes : {
+      blockedSizes : {
         dfp: [[970,250], [994,118], [994,250]],
         appnexus: [[970,250], [994,118], [994,250]]
       }

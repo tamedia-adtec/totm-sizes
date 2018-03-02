@@ -2,7 +2,7 @@ module.exports = {
 
   'inside-full-top': {
 
-      blockSizes : {
+      blockedSizes : {
         dfp: [[970,250], [994,118], [994,250]],
         appnexus:  [[994, 250], [994, 118], [970, 250]]
       }
@@ -12,7 +12,7 @@ module.exports = {
 
     'inside-full': {
 
-        blockSizes : {
+        blockedSizes : {
           dfp: [[970,250], [994,118], [994,250]],
           appnexus:[[994, 250], [994, 118], [970, 250]]
         }
