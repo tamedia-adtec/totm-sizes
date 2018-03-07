@@ -11,5 +11,12 @@ module.exports = {
             dfp: [[320,416]],
             appnexus : [[320,416]]
         }
+    },
+
+    'content-ad': {
+        sizes : {
+            dfp: [[1,1]],
+            appnexus : []
+        }
     }
  };

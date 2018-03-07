@@ -29,7 +29,7 @@ module.exports = {
 
     'content-ad': {
         sizes : {
-            dfp: [],
+            dfp: [[1,1]],
             appnexus : []
         }
     }
