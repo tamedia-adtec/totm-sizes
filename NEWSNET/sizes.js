@@ -11,11 +11,6 @@ module.exports = {
         sizes: {
             dfp: [[320, 416]],
             appnexus: [[320, 416]]
-        },
-
-        blockedSizes: {
-            dfp: [[970, 250], [994, 118], [994, 250],[728, 90]],
-            appnexus: [[994, 250], [994, 118], [970, 250],[728, 90]]
         }
     },
 
@@ -42,7 +37,7 @@ module.exports = {
             appnexus : [[640, 400]]
         }
     },
-    
+
     'content-ad': {
         sizes : {
             dfp: [[1,1]],
