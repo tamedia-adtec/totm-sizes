@@ -9,7 +9,7 @@ module.exports = {
 
     'inside-full-top': {
         sizes: {
-            dfp: [[300,50]],
+            dfp: [[300,50],[300,250]],
             appnexus: []
         }
     },
