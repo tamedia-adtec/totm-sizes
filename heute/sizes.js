@@ -55,10 +55,10 @@ module.exports = {
             appnexus : []
         }
     },
-    'inside-quarter': {
+    'inside-quarter-pos1': {
         sizes : {
-            dfp: [[300,600]],
-            appnexus : []
+            dfp: [[300,250],[300,600]],
+            appnexus : [[300,250],[300,600]]
         }
     }
 };
