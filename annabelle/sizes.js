@@ -18,5 +18,11 @@ module.exports = {
             dfp: [[1,1]],
             appnexus : []
         }
+    },
+    'outside-right': {
+        sizes : {
+            dfp: [[500, 1000]],
+            appnexus : [[500, 1000]]
+        }
     }
  };
