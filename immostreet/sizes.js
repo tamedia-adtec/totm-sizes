@@ -6,10 +6,10 @@ module.exports = {
         }
     },
     'inside-full-top': {
-        blockedSizes: {
-            dfp: [[640,320]],
-            appnexus: []
-        }
+      sizes: {
+          dfp: [[640,320]],
+          appnexus: []
+      }
     },
     'inside-full': {
         blockedSizes: {
