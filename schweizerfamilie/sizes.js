@@ -19,7 +19,5 @@ module.exports = {
             dfp: [[320, 416]],
             appnexus: [[320, 416]]
         }
-    },
-
-
+    }
 };
