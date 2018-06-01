@@ -12,6 +12,14 @@ module.exports = {
             dfp: [[1,1]],
             appnexus : []
         }
-    }
+    },
+
+    'inside-full': {
+        sizes: {
+            dfp: [[320, 416]],
+            appnexus: [[320, 416]]
+        }
+    },
+
 
 };
