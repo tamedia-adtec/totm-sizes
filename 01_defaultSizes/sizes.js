@@ -75,4 +75,9 @@ module.exports = {
             appnexus : []
         }
     },
+
+    'video' : {
+        dfp: [[640,480]],
+        appnexus : [[640,480]]
+    }
 };
