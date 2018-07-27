@@ -13,11 +13,16 @@ module.exports = {
         }
     },
 
-
-
     'outside-right-pos': {
         sizes : {
             dfp: [[160,300],[160,100], [340,170]],
+            appnexus : []
+        }
+    },
+
+    'inside-half-pos': {
+        sizes : {
+            dfp: [160,100],
             appnexus : []
         }
     }
