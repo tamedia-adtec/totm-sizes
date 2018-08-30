@@ -17,7 +17,21 @@ module.exports = {
         }
     },
 
+    //ADT-1359
+    'inside-quarter-direct': {
+        sizes: {
+            dfp: [[300,150]],
+            appnexus: []
+        }
+    },
 
+    //ADT-1359
+    'inside-full-direct': {
+        sizes: {
+            dfp: [[300,150]],
+            appnexus: []
+        }
+    },
 
     'outside-right' : {
         blockedSizes : {

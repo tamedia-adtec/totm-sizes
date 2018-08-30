@@ -1,14 +1,10 @@
 module.exports = {
-    'outside-right': {
-      blockedSizes: {
-           appnexus: [[500, 1000]]
-       }
-   },
 
    //add 500x1000 to test sitebars DASB-1194
-   'outside-right': {
-    sizes: {
-         dfp: [[500, 1000]]
+   'outside-right':{
+     sizes : {
+         dfp: [[500, 1000]],
+         appnexus : [[500, 1000]]
      }
  },
 
