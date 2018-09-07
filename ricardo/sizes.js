@@ -8,6 +8,19 @@ module.exports = {
      }
  },
 
+    // DASB-1294
+   'inside-quarter-direct':{
+     sizes : {
+         dfp: [[300,150]]
+     }
+ },
+
+    'inside-full-direct':{
+     sizes : {
+         dfp: [[300,150]]
+     }
+ },
+
     // remove size ADT-658
     'content-ad': {
 
