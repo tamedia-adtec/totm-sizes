@@ -22,7 +22,7 @@ module.exports = {
 
     'inside-half-pos': {
         sizes : {
-            dfp: [160,100],
+            dfp: [[160,100]],
             appnexus : []
         }
     }
