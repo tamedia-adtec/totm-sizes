@@ -11,6 +11,10 @@ module.exports = {
     'inside-full-pos1': {
         options : {
             loadingRatio : 0.62
+        },
+        sizes: {
+            dfp: [[640,320]],
+            appnexus: []
         }
     },
 
