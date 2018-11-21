@@ -12,6 +12,9 @@ module.exports = {
     },
 
     'inside-full-top': {
+        options : {
+            loadingRatio : 0.62
+        },
         // DASB-811 640x320
         sizes: {
             dfp: [[640,320]],
