@@ -2,6 +2,9 @@ module.exports = {
 
     'inside-full': {
         // DASB-811 640x320
+        options : {
+            loadingRatio : 0.62
+        },
         sizes: {
             dfp: [[278, 70], [278, 40], [278, 41],[640,320]],
             appnexus: []
