@@ -9,6 +9,14 @@ module.exports = {
             appnexus : [[994, 250], [994, 118], [970, 250], [728, 90], [320, 160], [320, 64], [320, 50]]
         }
     },
+
+    'inside-full-brandday': {
+        sizes : {
+            dfp : [[1200,250]],
+            appnexus : []
+        }
+    },
+
     'inside-full': {
         options : {
             loadingRatio : 0.66
