@@ -85,7 +85,7 @@ module.exports = {
     },
 
     'video' : {
-        sizes : {
+        forcedSizes : {
             dfp: [[640,480]],
             appnexus : [[640,480]]
         }
