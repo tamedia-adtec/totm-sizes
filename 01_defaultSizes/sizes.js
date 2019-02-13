@@ -1,85 +1,103 @@
 module.exports = {
 
     'inside-full-top': {
-        options : {
-          loadingRatio : 0.66
+        options: {
+            loadingRatio: 0.66
         },
+
         sizes : {
-            dfp : [[300,250], [320,50], [320,64], [320, 160], [728,90], [970,250], [994,118], [994,250]],
-            appnexus : [[994, 250], [994, 118], [970, 250], [728, 90], [320, 160], [320, 64], [320, 50]]
+            dfp : [[300,250], [320,50], [320,64], [320, 160], [728,90], [970,250], [994,118], [994,250], [994,550]],
+            appnexus : [[994,550], [994, 250], [994, 118], [970, 250], [728, 90], [320, 160], [320, 64], [320, 50]]
+        sizes: {
+            dfp: [[300, 250], [320, 50], [320, 64], [320, 160], [728, 90], [970, 250], [994, 118], [994, 250], [994,550]],
+            appnexus: [[994,550], [994, 250], [994, 118], [970, 250], [728, 90], [320, 160], [320, 64], [320, 50]]
         }
     },
+
+    'inside-full-brandday': {
+        sizes: {
+            dfp: [[1200, 250]],
+            appnexus: []
+        }
+    },
+
     'inside-full': {
-        options : {
-            loadingRatio : 0.66
+        options: {
+            loadingRatio: 0.66
         },
-        sizes : {
-            dfp : [[300, 250], [320, 50], [320, 64], [320, 160], [336, 280], [728, 90], [970, 250], [994, 118], [994, 250]],
-            appnexus : [[994, 250], [970, 250],[728, 90],[300, 250], [320, 160], [320, 50],[320, 64]]
+        sizes: {
+            dfp: [[300, 250], [320, 50], [320, 64], [320, 160], [336, 280], [728, 90], [970, 250], [994, 118], [994, 250]],
+            appnexus: [[994, 250], [970, 250], [728, 90], [300, 250], [320, 160], [320, 50], [320, 64]]
         },
 
         forcedSizes: {
-            all : [],
+            all: [],
             mobile: [[828, 910]],
             desktop: [[960, 800]]
         }
     },
 
     'inside-half': {
-        sizes : {
+        sizes: {
             dfp: [],
-            appnexus : []
+            appnexus: []
         }
     },
 
     'gallery': {
-        sizes : {
+        sizes: {
             dfp: [],
-            appnexus : []
+            appnexus: []
         }
     },
 
 
     'inside-quarter': {
-        sizes : {
-            dfp: [[300,250]],
-            appnexus : [[300,250]]
+        sizes: {
+            dfp: [[300, 250]],
+            appnexus: [[300, 250]]
         }
     },
 
     'outside-right-pos': {
-        sizes : {
+        sizes: {
             dfp: [],
-            appnexus : []
+            appnexus: []
         }
     },
 
     'outside-right': {
-        options : {
-            percentageViewable : 50
+        options: {
+            percentageViewable: 50
         },
-        sizes : {
+        sizes: {
             dfp: [[160, 600], [245, 770], [300, 600]],
-            appnexus : [[160, 600], [245, 770], [300, 600]]
+            appnexus: [[160, 600], [245, 770], [300, 600]]
         }
     },
     'outside-left': {
-        sizes : {
+        sizes: {
             dfp: [],
-            appnexus : []
+            appnexus: []
         }
     },
     'content-ad': {
-        sizes : {
+        sizes: {
             dfp: [],
-            appnexus : []
+            appnexus: []
         }
     },
 
-    'video' : {
-        sizes : {
-            dfp: [[640,480]],
-            appnexus : [[640,480]]
+    'video': {
+
+        sizes: {
+            dfp: [],
+            appnexus: []
+        },
+
+        forcedSizes: {
+            all: [[[640, 480]]]
         }
     }
+
 };
