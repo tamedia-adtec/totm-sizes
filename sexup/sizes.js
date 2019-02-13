@@ -1,14 +1,14 @@
 module.exports = {
     'inside-full-top': {
         sizes: {
-            dfp: [[300, 250], [320, 416]],
+            dfp: [[300, 250]],
             appnexus: []
         }
     },
 
     'inside-full-pos1': {
         sizes: {
-            dfp: [[340, 170], [320, 416]],
+            dfp: [[340, 170]],
             appnexus: []
         }
     },
