@@ -1,5 +1,11 @@
 module.exports = {
 
+    'inside-full-top': {
+        blockedSizes: {
+            dfp: [[994,500]],
+            appnexus: [[994,500]]
+        }
+    },
     'content-ad': {
         sizes: {
             dfp: [[278, 40]],

@@ -1,11 +1,11 @@
 module.exports = {
 
-  'inside-full-top': {
-    blockedSizes: {
-        dfp: [[728,90]],
-        appnexus: [[728,90]]
-    }
-  },
+    'inside-full-top': {
+        blockedSizes: {
+            dfp: [[728,90],[994,500]],
+            appnexus: [[728,90],[994,500]]
+        }
+    },
 
 
     'inside-full': {
