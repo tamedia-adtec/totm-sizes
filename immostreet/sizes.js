@@ -18,9 +18,9 @@ module.exports = {
 
 
     'inside-full': {
-        blockedSizes: {
-            dfp: [],
+        sizes: {
+            dfp: [[640, 320]],
             appnexus: []
-        }
+        },
     }
 };
