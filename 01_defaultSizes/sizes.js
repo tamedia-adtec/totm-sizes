@@ -75,7 +75,7 @@ module.exports = {
     },
     'outside-left': {
         sizes: {
-            dfp: [[160, 601]],
+            dfp: [[160, 601]], // 160x601 DASB-1431
             appnexus: []
         }
     },
