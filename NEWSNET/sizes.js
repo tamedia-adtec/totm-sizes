@@ -1,47 +1,53 @@
 module.exports = {
 
-  'inside-full-top': {
-      sizes: {
-          dfp: [[760, 190], [300, 250], [1200, 250]],
-          appnexus: [[760, 190], [300, 250]]
-      }
-  },
+    'inside-full-top': {
+        sizes: {
+            dfp: [[760, 190], [300, 250], [1200, 250], [728, 90]],
+            appnexus: [[760, 190], [300, 250]]
+        },
+        
+        forcedSizes: {
+            all: [],
+            mobile: [],
+            desktop: [[728, 90]]
+        }
+    },
 
     'inside-full': {
         sizes: {
-            dfp: [[320, 416],[300,600]],
+            dfp: [[320, 416], [300, 600]],
             appnexus: [[320, 416]]
         }
     },
 
 
     'outside-right': {
-        sizes : {
+        sizes: {
             dfp: [[500, 1000]],
-            appnexus : [[500, 1000]]
+            appnexus: [[500, 1000]]
         }
     },
 
     'outside-left': {
 
-        sizes : {
+        sizes: {
             dfp: [[160, 600]],
-            appnexus : []
+            appnexus: []
         }
     },
 
 
     'inside-half': {
-        sizes : {
+        sizes: {
             dfp: [[640, 400]],
-            appnexus : [[640, 400]]
+            appnexus: [[640, 400]]
         }
     },
 
     'content-ad': {
-        sizes : {
-            dfp: [[1,1]],
-            appnexus : []
+        sizes: {
+            dfp: [[1, 1]],
+            appnexus: []
         }
     }
 };
