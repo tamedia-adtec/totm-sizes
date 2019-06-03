@@ -6,6 +6,12 @@ module.exports = {
           }
     },
 
+    'inside-full-pos1': {
+        sizes: {
+            dfp: [[300, 600]],
+            appnexus: []
+        }
+    },
     'inside-full': {
         sizes : {
             dfp: [[320,416]],

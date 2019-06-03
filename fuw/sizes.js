@@ -7,6 +7,13 @@ module.exports = {
       }
   },
 
+    'inside-full-pos1': {
+        sizes: {
+            dfp: [[300, 600]],
+            appnexus: []
+        }
+    },
+
   'outside-left': {
       sizes: {
           dfp: [[160, 600], [300, 600], [245, 770]],
