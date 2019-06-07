@@ -39,6 +39,12 @@ module.exports = {
             dfp: [[1,1]],
             appnexus : []
         }
+    },
+    'branding_quarter': {
+        sizes : {
+            dfp: [[300,250]],
+            appnexus : []
+        }
     }
 
 };
