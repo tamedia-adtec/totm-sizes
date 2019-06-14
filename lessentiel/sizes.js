@@ -12,6 +12,14 @@ module.exports = {
         }
     },
 
+
+    'outside-righ-pos': {
+        sizes: {
+            dfp: [[160,600],[245,770],[300,600],[500,1e3]],
+            appnexus: []
+        }
+    },
+
     'inside-full': {
         sizes: {
             dfp: [[320, 416], [320, 150]],
