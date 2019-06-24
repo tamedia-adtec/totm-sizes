@@ -4,6 +4,12 @@ module.exports = {
         sizes: {
             dfp: [[720,145],[1024,122], [320,250], [300,250]],
             appnexus: []
+        },
+
+        forcedSizes: {
+            all: [],
+            mobile: [[320, 160]],
+            desktop: []
         }
     },
     // add extra sizes PP-664, ADT-395, ADT-609
@@ -11,12 +17,6 @@ module.exports = {
         sizes: {
             dfp: [[320, 416],[720,145], [320,250], [320,480], [300,600]],
             appnexus: [[320, 416]]
-        },
-
-        forcedSizes: {
-            all: [[320, 160]],
-            mobile: [],
-            desktop: []
         }
     },
 
