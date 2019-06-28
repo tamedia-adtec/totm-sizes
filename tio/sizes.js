@@ -51,6 +51,12 @@ module.exports = {
             dfp: [[300,250]],
             appnexus : []
         }
+    },
+    'branding_half': {
+        sizes : {
+            dfp: [[468,400], [640, 400]],
+            appnexus : []
+        }
     }
 
 };
