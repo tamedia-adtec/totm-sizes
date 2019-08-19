@@ -2,14 +2,14 @@ module.exports = {
 
     'inside-full-top': {
         blockedSizes: {
-            dfp: [[994,500]],
-            appnexus: [[994,500]]
+            dfp: [[994, 500]],
+            appnexus: [[994, 500]]
         }
     },
     'inside-full': {
         sizes: {
-            dfp: [[320,416]],
-            appnexus: [[320,416]]
+            dfp: [[320, 416]],
+            appnexus: [[320, 416]]
         }
     },
     'content-ad': {
@@ -26,6 +26,8 @@ module.exports = {
         }
     },
     'outside-right': {
-
+        sizes: {
+            dfp: [[500, 1000]]
+        }
     }
 };
