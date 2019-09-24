@@ -5,7 +5,7 @@ module.exports = {
             dfp: [[760, 190], [300, 250], [1200, 250], [728, 90]],
             appnexus: [[760, 190], [300, 250]]
         },
-        
+
         forcedSizes: {
             all: [],
             mobile: [],
@@ -48,11 +48,12 @@ module.exports = {
         sizes: {
             dfp: [[1, 1]],
             appnexus: []
-        },
-        
+        }
+    },
+
     'paid-inside': {
-        sizes : {
-            dfp: [[1,1]],
+        sizes: {
+            dfp: [[1, 1]],
             appnexus: []
         }
     }
