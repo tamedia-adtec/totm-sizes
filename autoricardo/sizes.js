@@ -28,9 +28,6 @@ module.exports = {
     'outside-right': {
         sizes: {
             dfp: [[500, 1000]]
-        },
-        blockedSizes : {
-            appnexus: [[500, 1000]]
         }
     }
 };
