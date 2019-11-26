@@ -23,6 +23,13 @@ module.exports = {
     },
 
 
+    'inside-full': {
+        sizes: {
+            dfp: [[320, 416]],
+            appnexus: []
+        }
+    },
+
     'inside-full-direct': {
         sizes: {
             dfp: [[300, 150]]
