@@ -12,7 +12,6 @@ module.exports = {
             desktop: []
         }
     },
-	
     // add extra sizes PP-664, ADT-395, ADT-609
     'inside-full': {
         sizes: {
