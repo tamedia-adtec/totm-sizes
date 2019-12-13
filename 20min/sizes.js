@@ -61,4 +61,11 @@ module.exports = {
             appnexus : []
         }
     },
+
+    'inside-full-sticky': {
+        sizes: {
+            dfp: [[1,1]],
+            appnexus: []
+        }
+    }
 };
