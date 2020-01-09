@@ -2,7 +2,7 @@ module.exports = {
     // add extra sizes PP-664, ADT-395
     'inside-full-top': {
         sizes: {
-            dfp: [[720,145],[1024,122], [320,250], [300,250]],
+            dfp: [[720,145],[1024,122], [320,250], [300,250], [994,250]],
             appnexus: []
         },
 
