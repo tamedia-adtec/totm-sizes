@@ -12,7 +12,7 @@ module.exports = {
 
     'inside-full-brandday': {
         sizes: {
-            dfp: [[1200, 250]],
+            dfp: [[994, 250], [1200, 250]],
             appnexus: []
         }
     },
