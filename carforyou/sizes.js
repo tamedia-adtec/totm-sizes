@@ -16,11 +16,4 @@ module.exports = {
         }
     }
 
-,
-
-    'inside-full-footer': {
-        options: {
-            loadingRatio: 0.66
-        }
-    }
 };
