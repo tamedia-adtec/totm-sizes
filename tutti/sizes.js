@@ -1,17 +1,23 @@
 module.exports = {
 
-  'inside-full-top': {
-    blockedSizes: {
-        dfp: [[728,90]],
-        appnexus: [[728,90]]
-    }
-  },
+    'inside-full-top': {
+        blockedSizes: {
+            dfp: [[728, 90]],
+            appnexus: [[728, 90]]
+        }
+    },
 
+    'inside-full-native': {
+        sizes: {
+            dfp: [[320, 160]],
+            appnexus: []
+        }
+    },
 
     'inside-full': {
-        sizes : {
-            dfp: [[278, 70], [278, 40], [300, 150],[320,416],[300,600],[160,600]],
-            appnexus : [[320,416],[300,600],[160,600]]
+        sizes: {
+            dfp: [[278, 70], [278, 40], [300, 150], [320, 416], [300, 600], [160, 600]],
+            appnexus: [[320, 416], [300, 600], [160, 600]]
         }
     },
 
@@ -24,8 +30,8 @@ module.exports = {
 
     'inside-quarter': {
         sizes: {
-            dfp: [[278, 70], [300, 30],[300, 150]],
-            appnexus: [[278, 70], [300, 30],[300, 150]]
+            dfp: [[278, 70], [300, 30], [300, 150]],
+            appnexus: [[278, 70], [300, 30], [300, 150]]
         }
     },
 
