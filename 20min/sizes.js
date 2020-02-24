@@ -19,6 +19,12 @@ module.exports = {
             appnexus: [[320, 416]]
         }
     },
+    'inside-full-content': {
+        sizes: {
+            dfp: [[320, 416]],
+            appnexus: [[320, 416]]
+        }
+    },
 
     'gallery': {
         sizes : {
