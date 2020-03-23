@@ -25,6 +25,18 @@ module.exports = {
         }
     },
 
+    'inside-full-content': {
+        sizes: {
+            dfp: [[300, 250]],
+            appnexus: [[300, 250]]
+        },
+
+        forcedSizes: {
+            all: [],
+            mobile: [],
+            desktop: [[300, 250]]
+        }
+    },
 
     'outside-right': {
         sizes: {
