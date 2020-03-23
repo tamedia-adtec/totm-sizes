@@ -17,15 +17,7 @@ module.exports = {
         sizes: {
             dfp: [[320, 416], [300, 600], [994, 550], [760, 420]],
             appnexus: [[320, 416]]
-        }
-    },
-
-    'inside-full-pos1': {
-        sizes: {
-            dfp: [[320, 416], [300, 600], [994, 550], [760, 420]],
-            appnexus: [[320, 416]]
         },
-
         forcedSizes: {
             all: [],
             mobile: [],
@@ -33,9 +25,10 @@ module.exports = {
         }
     },
 
-    'inside-full-content-pos1': {
+
+    'inside-full-content': {
         sizes: {
-            dfp: [[320, 416], [300, 600], [994, 550], [760, 420]],
+            dfp: [[1, 1]],
             appnexus: []
         },
 
