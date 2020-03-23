@@ -21,6 +21,24 @@ module.exports = {
     },
 
 
+    'inside-full-pos1': {
+        forcedSizes: {
+            all: [],
+            mobile: [],
+            desktop: [[300, 250]]
+        }
+    },
+
+
+    'inside-full-content-pos1': {
+        forcedSizes: {
+            all: [],
+            mobile: [],
+            desktop: [[300, 250]]
+        }
+    },
+
+
     'outside-right': {
         sizes: {
             dfp: [[500, 1000]],
