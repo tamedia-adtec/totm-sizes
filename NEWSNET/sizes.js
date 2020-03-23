@@ -17,6 +17,11 @@ module.exports = {
         sizes: {
             dfp: [[320, 416], [300, 600], [994, 550], [760, 420]],
             appnexus: [[320, 416]]
+        },
+        forcedSizes: {
+            all: [],
+            mobile: [],
+            desktop: [[300, 250]]
         }
     },
 
