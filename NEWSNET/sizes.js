@@ -22,8 +22,8 @@ module.exports = {
 
     'inside-full-pos1': {
         sizes: {
-            dfp: [],
-            appnexus: []
+            dfp: [[320, 416], [300, 600], [994, 550], [760, 420]],
+            appnexus: [[320, 416]]
         },
 
         forcedSizes: {
@@ -35,7 +35,7 @@ module.exports = {
 
     'inside-full-content-pos1': {
         sizes: {
-            dfp: [],
+            dfp: [[320, 416], [300, 600], [994, 550], [760, 420]],
             appnexus: []
         },
 
