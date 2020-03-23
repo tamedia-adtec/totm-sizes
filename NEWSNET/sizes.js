@@ -29,7 +29,7 @@ module.exports = {
         forcedSizes: {
             all: [],
             mobile: [],
-            desktop: [[728, 90]]
+            desktop: [[300, 250]]
         }
     },
 
@@ -42,7 +42,7 @@ module.exports = {
         forcedSizes: {
             all: [],
             mobile: [],
-            desktop: [[728, 90]]
+            desktop: [[300, 250]]
         }
     },
 
