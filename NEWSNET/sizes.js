@@ -20,24 +20,31 @@ module.exports = {
         }
     },
 
-
     'inside-full-pos1': {
+        sizes: {
+            dfp: [],
+            appnexus: []
+        },
+
         forcedSizes: {
             all: [],
             mobile: [],
-            desktop: [[300, 250]]
+            desktop: [[728, 90]]
         }
     },
-
 
     'inside-full-content-pos1': {
+        sizes: {
+            dfp: [],
+            appnexus: []
+        },
+
         forcedSizes: {
             all: [],
             mobile: [],
-            desktop: [[300, 250]]
+            desktop: [[728, 90]]
         }
     },
-
 
     'outside-right': {
         sizes: {
