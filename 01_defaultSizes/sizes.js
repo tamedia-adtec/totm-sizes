@@ -11,6 +11,9 @@ module.exports = {
     },
 
     'inside-full-brandday': {
+        options: {
+            loadingRatio: 0.66
+        },
         sizes: {
             dfp: [[994, 250], [1200, 250]],
             appnexus: []
