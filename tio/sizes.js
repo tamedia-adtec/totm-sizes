@@ -12,7 +12,7 @@ module.exports = {
             desktop: []
         }
     },
-1
+
     'inside-full-topnews': {
         sizes: {
             dfp: [],
