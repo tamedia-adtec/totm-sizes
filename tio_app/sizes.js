@@ -24,7 +24,7 @@ module.exports = {
         },
 
         forcedSizes: {
-            all: [],
+            all: [[320,67]],
             mobile: [[1024, 206]],
             desktop: [[994,100],[994,150]]
         }
