@@ -11,13 +11,32 @@ module.exports = {
     },
 
     'inside-full-brandday': {
+        options: {
+            loadingRatio: 0.66
+        },
         sizes: {
-            dfp: [[1200, 250]],
+            dfp: [[994, 250], [1200, 250]],
             appnexus: []
         }
     },
 
     'inside-full': {
+        options: {
+            loadingRatio: 0.66
+        },
+        sizes: {
+            dfp: [[300, 250], [320, 50], [320, 64], [320, 160], [336, 280], [728, 90], [970, 250], [994, 118], [994, 250]],
+            appnexus: [[994, 250], [970, 250], [728, 90], [300, 250], [320, 160], [320, 50], [320, 64]]
+        },
+
+        forcedSizes: {
+            all: [],
+            mobile: [[828, 910]],
+            desktop: [[960, 800]]
+        }
+    },
+
+ 'inside-full-content': {
         options: {
             loadingRatio: 0.66
         },

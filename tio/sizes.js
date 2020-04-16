@@ -12,6 +12,22 @@ module.exports = {
             desktop: []
         }
     },
+
+    'inside-full-topnews': {
+        sizes: {
+            dfp: [],
+            appnexus: []
+        },
+
+        forcedSizes: {
+            all: [[320,67]],
+            mobile: [[1024, 206]],
+            desktop: [[994,100],[994,150]]
+        }
+
+    },
+
+
     // add extra sizes PP-664, ADT-395, ADT-609
     'inside-full': {
         sizes: {
