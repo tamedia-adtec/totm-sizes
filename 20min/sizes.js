@@ -20,6 +20,11 @@ module.exports = {
         sizes: {
             dfp: [[320, 416], [760, 420], [994, 550],[300,600]],
             appnexus: [[320, 416]]
+        },
+        forcedSizes: {
+            all: [],
+            //to force this size on tablet
+            mobile: [[300,600]]
         }
     },
     'inside-full-content': {
