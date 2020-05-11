@@ -24,7 +24,7 @@ module.exports = {
         forcedSizes: {
             all: [],
             //to force this size on tablet
-            mobile: [[300,600]]
+            mobile: [[300,250],[300,600]]
         }
     },
     'inside-full-content': {
