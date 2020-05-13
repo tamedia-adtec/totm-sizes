@@ -1,7 +1,7 @@
 module.exports = {
     'inside-full-top': {
         sizes: {
-            dfp: [[760, 190], [300, 250], [336, 280]],
+            dfp: [[760, 190], [300, 250], [336, 280], [1200, 250], [1200, 500]],
             appnexus: [[300, 250]]
         }
     },
@@ -11,20 +11,20 @@ module.exports = {
             loadingRatio: 0.5
         },
         sizes: {
-            dfp: [[994,500],[320, 160], [728,250]],
+            dfp: [[994, 500], [320, 160], [728, 250]],
             appnexus: [[320, 416]]
         }
     },
 
     'inside-full': {
         sizes: {
-            dfp: [[320, 416], [760, 420], [994, 550],[300,600]],
+            dfp: [[320, 416], [760, 420], [994, 550], [300, 600], [1200, 250]],
             appnexus: [[320, 416]]
         },
         forcedSizes: {
             all: [],
             //to force this size on tablet
-            mobile: [[300,250],[300,600]]
+            mobile: [[300, 250], [300, 600]]
         }
     },
     'inside-full-content': {
@@ -35,50 +35,50 @@ module.exports = {
     },
 
     'gallery': {
-        sizes : {
+        sizes: {
             dfp: [[468, 400]],
-            appnexus : [[468, 400]]
+            appnexus: [[468, 400]]
         }
     },
 
     'inside-half': {
-        sizes : {
+        sizes: {
             dfp: [[468, 400], [480, 240]],
-            appnexus : [[468, 400], [480, 240]]
+            appnexus: [[468, 400], [480, 240]]
         }
     },
 
 
     'outside-right': {
-        sizes : {
+        sizes: {
             dfp: [[500, 1000]],
-            appnexus : [[500, 1000]]
+            appnexus: [[500, 1000]]
         }
     },
 
     'outside-left': {
 
-        sizes : {
+        sizes: {
             dfp: [[160, 600]],
-            appnexus : []
+            appnexus: []
         }
     },
     'content-ad': {
-        sizes : {
-            dfp: [[1,1]],
-            appnexus : []
+        sizes: {
+            dfp: [[1, 1]],
+            appnexus: []
         }
     },
-    'paid-inside':{
-        sizes : {
-            dfp: [[1,1]],
-            appnexus : []
+    'paid-inside': {
+        sizes: {
+            dfp: [[1, 1]],
+            appnexus: []
         }
     },
 
     'inside-full-sticky': {
         sizes: {
-            dfp: [[1,1]],
+            dfp: [[1, 1]],
             appnexus: []
         }
     }
