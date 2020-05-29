@@ -7,6 +7,7 @@ module.exports = {
         },
         blockedSizes: {
             all: [],
+            mobile: [],
             desktop: [[300, 250]]
         }
     },
