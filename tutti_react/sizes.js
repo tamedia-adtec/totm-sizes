@@ -1,13 +1,9 @@
 module.exports = {
 
     'inside-full-top': {
-        sizes: {
-            dfp: [[994, 500]],
-            appnexus: [[994, 500]]
-        },
         blockedSizes: {
             dfp: [[728, 90]],
-            appnexus: [[728, 90]]
+            appnexus: [[728, 90],[994,500]]
         }
     },
 
