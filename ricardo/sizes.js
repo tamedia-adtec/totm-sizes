@@ -26,7 +26,7 @@ module.exports = {
     'inside-full': {
         sizes: {
             dfp: [[320, 416]],
-            appnexus: []
+            appnexus: [[320, 416]]
         }
     },
 
