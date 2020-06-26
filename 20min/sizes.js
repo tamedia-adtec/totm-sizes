@@ -34,6 +34,13 @@ module.exports = {
         }
     },
 
+    'inside-full-recommender': {
+        sizes: {
+            dfp: [[300, 250]],
+            appnexus: [[300, 250]]
+        }
+    },
+
     'gallery': {
         sizes: {
             dfp: [[468, 400]],
