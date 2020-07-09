@@ -73,5 +73,12 @@ module.exports = {
             dfp: [[1, 1]],
             appnexus: []
         }
+    },
+
+    'inside-full-recommender': {
+        sizes: {
+            dfp: [],
+            appnexus: []
+        }
     }
 };
