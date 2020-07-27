@@ -31,7 +31,13 @@ module.exports = {
 
     },
 
-
+    // add extra sizes PP-664, ADT-395, ADT-609
+    'inside-full-brandday': {
+        sizes: {
+            dfp: [[320, 160]],
+            appnexus: []
+        }
+    },
 
     // add extra sizes PP-664, ADT-395, ADT-609
     'inside-full': {
