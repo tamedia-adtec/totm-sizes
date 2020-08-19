@@ -19,7 +19,7 @@ module.exports = {
     'inside-full': {
         sizes: {
             dfp: [[320, 416], [760, 420], [994, 550],[300,600],[728,250],[1200,250]],
-            appnexus: [[320, 416]]
+            appnexus: [[320, 416],[300,600]]
         },
         forcedSizes: {
             all: [],
@@ -29,8 +29,8 @@ module.exports = {
     },
     'inside-full-content': {
         sizes: {
-            dfp: [[320, 416]],
-            appnexus: [[320, 416]]
+            dfp: [[320, 416],[300,600]],
+            appnexus: [[320, 416],[300,600]]
         }
     },
 
@@ -78,8 +78,8 @@ module.exports = {
     },
     'paid-inside': {
         sizes: {
-            dfp: [[1, 1]],
-            appnexus: []
+            dfp: [[1, 1],[300,250]],
+            appnexus: [[300,250]]
         }
     },
 
