@@ -73,13 +73,13 @@ module.exports = {
     'branding_quarter': {
         sizes : {
             dfp: [[300,250]],
-            appnexus : []
+            appnexus : [[1,1]]
         }
     },
     'branding_half': {
         sizes : {
             dfp: [[468,400], [640, 400]],
-            appnexus : []
+            appnexus : [[1,1]]
         }
     },
     'paid-inside':{
