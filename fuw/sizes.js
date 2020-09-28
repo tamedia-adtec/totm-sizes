@@ -19,6 +19,12 @@ module.exports = {
         }
     },
 
+    'paid-inside': {
+        sizes: {
+            dfp: [[1, 1],[300,250]],
+            appnexus: [[300,250]]
+        }
+    },
 
     'inside-quarter': {
         sizes: {
