@@ -17,16 +17,18 @@ module.exports = {
     },
 
     'inside-full-pos1': {
-        sizes: {
-            dfp: [[320, 416]],
-            appnexus: [[320, 416]]
+        forcedSizes: {
+            all: [],
+            mobile: [[320, 416]],
+            desktop: []
         }
     },
 
     'inside-full-footer': {
         sizes: {
-            dfp: [[320, 416]],
-            appnexus: [[320, 416]]
+            all: [],
+            mobile: [[320, 416]],
+            desktop: []
         }
     }
 
