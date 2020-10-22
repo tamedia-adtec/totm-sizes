@@ -33,7 +33,7 @@ module.exports = {
 
         forcedSizes: {
             all: [],
-            mobile: [],
+            mobile: [[320,416],[300,600]],
             desktop: [[300, 250]]
         }
     },
