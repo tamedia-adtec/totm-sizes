@@ -27,8 +27,8 @@ module.exports = {
 
     'inside-full-content': {
         sizes: {
-            dfp: [[300, 250]],
-            appnexus: [[300, 250]]
+            dfp: [[300, 250],[320,416],[300,600]],
+            appnexus: [[300, 250],[320,416],[300,600]]
         },
 
         forcedSizes: {
