@@ -22,8 +22,15 @@ module.exports = {
 
     'outside-right-pos': {
         sizes: {
-            dfp: [[160,600],[245,770],[300,600],[500,1e3]],
+            dfp: [[160,600],[245,770],[300,600],[500,1000]],
             appnexus: []
+        }
+    },
+
+    'outside-right': {
+        sizes: {
+            dfp: [[500,1000]],
+            appnexus: [[500,1000]]
         }
     },
 
