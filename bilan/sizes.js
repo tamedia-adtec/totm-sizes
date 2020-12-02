@@ -45,5 +45,11 @@ module.exports = {
             dfp: [[1, 1]],
             appnexus: []
         }
-    }
+    },
+    'paid-inside': {
+        sizes: {
+            dfp: [[1, 1]],
+            appnexus: []
+        }
+    },
 };
