@@ -8,6 +8,10 @@ module.exports = {
         sizes: {
             dfp: [[278, 70], [278, 40], [278, 41], [640, 320]],
             appnexus: []
+        },
+        blockedSizes: {
+            dfp: [[960, 800]],
+            appnexus: [[960, 800]]
         }
     },
 
