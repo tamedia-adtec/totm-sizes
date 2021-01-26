@@ -90,9 +90,9 @@ module.exports = {
         }
     },
 
-    'outside-full': {
+    'outside-full-welcome': {
         sizes: {
-            dfp: [[1, 1]],
+            dfp: [[1200, 250],[994,250],[300,250]],
             appnexus: []
         }
     }
