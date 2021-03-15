@@ -111,7 +111,7 @@ module.exports = {
         },
 
         forcedSizes: {
-            all: [[[640, 480]]]
+            all: [[640, 480]]
         }
     }
 
