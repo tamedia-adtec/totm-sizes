@@ -20,7 +20,7 @@ module.exports = {
         }
     },
     'inside-quarter': {
-        sizes: {
+        blockedSizes: {
             dfp: [[300, 600]],
             appnexus: [[300, 600]]
         }
