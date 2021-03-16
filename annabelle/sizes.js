@@ -19,10 +19,10 @@ module.exports = {
         }
     },
 
-    'content-ad': {
-        sizes: {
-            dfp: [[1, 1]],
-            appnexus: []
+    'inside-full-content': {
+        blockedSizes: {
+            dfp: [[960, 800],[828, 910]],
+            appnexus: [[960, 800],[828, 910]]
         }
     },
     'outside-right': {
