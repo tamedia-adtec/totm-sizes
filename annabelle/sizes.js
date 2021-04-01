@@ -25,7 +25,9 @@ module.exports = {
             appnexus: [[960, 800],[828, 910]]
         },
         forcedSizes: {
-            mobile: [[320, 416]]
+            all: [],
+            mobile: [[320, 416]],
+            desktop: [[320, 416]]
         }
     },
     'outside-right': {
