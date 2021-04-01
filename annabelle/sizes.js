@@ -24,8 +24,9 @@ module.exports = {
             dfp: [[960, 800],[828, 910]],
             appnexus: [[960, 800],[828, 910]]
         },
-        forcedSizes: {
-            all: [[320, 416]]
+        sizes: {
+            dfp: [[320, 416]],
+            appnexus: [[320, 416]]
         }
     },
     'outside-right': {
