@@ -33,6 +33,16 @@ module.exports = {
             appnexus: [[320, 416],[300,600]]
         }
     },
+    'inside-full-content-end': {
+        sizes: {
+            dfp: [[320, 416],[300,600]],
+            appnexus: [[320, 416],[300,600]]
+        },
+        blockedSizes: {
+            dfp: [[960, 800],[828, 910]],
+            appnexus: [[960, 800],[828, 910]]
+        }
+    },
 
     'inside-full-recommender': {
         sizes: {
