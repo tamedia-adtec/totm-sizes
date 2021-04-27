@@ -26,6 +26,21 @@ module.exports = {
         }
     },
 
+    'inside-full-footer': {
+        options: {
+            loadingRatio: 0.62
+        },
+        // DASB-811 640x320
+        sizes: {
+            dfp: [[640, 320]],
+            appnexus: []
+        },
+        blockedSizes: {
+            dfp: [[960, 800]],
+            appnexus: [[960, 800]]
+        }
+    },
+
     //ADT-1359
     'inside-quarter-direct': {
         sizes: {
