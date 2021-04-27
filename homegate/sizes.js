@@ -41,12 +41,6 @@ module.exports = {
             appnexus: []
         }
     },
-    'inside-full-footer': {
-        sizes: {
-            dfp: [],
-            appnexus: []
-        }
-    },
 
     'inside-full-searchbox': {
         sizes: {
