@@ -17,7 +17,7 @@ module.exports = {
         },
         // DASB-811 640x320
         sizes: {
-            dfp: [],
+            dfp: [[640, 320]],
             appnexus: []
         },
         blockedSizes: {
@@ -29,11 +29,6 @@ module.exports = {
     'inside-full-footer': {
         options: {
             loadingRatio: 0.62
-        },
-        // DASB-811 640x320
-        sizes: {
-            dfp: [[]],
-            appnexus: []
         },
         blockedSizes: {
             dfp: [[960, 800]],
