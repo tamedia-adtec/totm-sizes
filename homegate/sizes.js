@@ -8,10 +8,6 @@ module.exports = {
         sizes: {
             dfp: [[278, 70], [278, 40], [278, 41], [640, 320]],
             appnexus: []
-        },
-        blockedSizes: {
-            dfp: [[960, 800]],
-            appnexus: [[960, 800]]
         }
     },
 
@@ -43,13 +39,6 @@ module.exports = {
         sizes: {
             dfp: [[300, 150]],
             appnexus: []
-        }
-    },
-
-    'outside-right': {
-        blockedSizes: {
-            dfp: [[500, 1000]],
-            appnexus: [[500, 1000]]
         }
     },
 
