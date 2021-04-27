@@ -17,7 +17,7 @@ module.exports = {
         },
         // DASB-811 640x320
         sizes: {
-            dfp: [[640, 320]],
+            dfp: [],
             appnexus: []
         },
         blockedSizes: {
@@ -32,7 +32,7 @@ module.exports = {
         },
         // DASB-811 640x320
         sizes: {
-            dfp: [[640, 320]],
+            dfp: [[]],
             appnexus: []
         },
         blockedSizes: {
