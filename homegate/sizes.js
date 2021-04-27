@@ -42,6 +42,11 @@ module.exports = {
         }
     },
     'inside-full-footer': {
+        sizes: {
+            dfp: [],
+            appnexus: []
+        },
+
         blockedSizes: {
             dfp: [[960, 800]],
             appnexus: [[960, 800]]
