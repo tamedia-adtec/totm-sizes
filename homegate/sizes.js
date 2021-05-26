@@ -8,10 +8,6 @@ module.exports = {
         sizes: {
             dfp: [[278, 70], [278, 40], [278, 41], [640, 320]],
             appnexus: []
-        },
-        blockedSizes: {
-            dfp: [[960, 800]],
-            appnexus: [[960, 800]]
         }
     },
 
@@ -27,6 +23,20 @@ module.exports = {
         blockedSizes: {
             dfp: [[994, 500]],
             appnexus: [[994, 500]]
+        }
+    },
+
+    'inside-full-footer': {
+        options: {
+            loadingRatio: 0.62
+        },
+        sizes: {
+            dfp: [[300, 250], [320, 50], [320, 64], [320, 160], [320, 416], [336, 280], [728, 90], [728, 250], [970, 250], [994, 118], [994, 250]],
+            appnexus: [[994, 250], [970, 250], [728, 90], [728, 250], [300, 250], [320, 160], [320, 416], [320, 50], [320, 64]]
+        },
+        blockedSizes: {
+            dfp: [[960, 800]],
+            appnexus: [[960, 800]]
         }
     },
 
@@ -47,7 +57,7 @@ module.exports = {
     },
 
     'outside-right': {
-        blockedSizes: {
+        sizes: {
             dfp: [[500, 1000]],
             appnexus: [[500, 1000]]
         }
