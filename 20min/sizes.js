@@ -91,7 +91,7 @@ module.exports = {
         },
         blockedSizes: {
             dfp: [[960, 800], [828, 910]],
-            appnexus: [[960, 800], [828, 910]]
+            appnexus: [[960, 800], [828, 910],[320,416]]
         }
     },
 
@@ -103,7 +103,7 @@ module.exports = {
         forcedSizes: {
             all: [],
             mobile: [[828, 910]],
-            desktop: [[960, 800]]
+            desktop: [[960, 800],[320,416]]
         }
     },
 
@@ -115,7 +115,7 @@ module.exports = {
         forcedSizes: {
             all: [],
             mobile: [[828, 910]],
-            desktop: [[960, 800]]
+            desktop: [[960, 800],[320,416]]
         }
     },
 
@@ -127,7 +127,7 @@ module.exports = {
         forcedSizes: {
             all: [],
             mobile: [[828, 910]],
-            desktop: [[960, 800]]
+            desktop: [[960, 800],[320,416]]
         }
     },
 
@@ -139,7 +139,7 @@ module.exports = {
         },
         blockedSizes: {
             dfp: [[960, 800],[828, 910]],
-            appnexus: [[960, 800],[828, 910]]
+            appnexus: [[960, 800],[828, 910],[320,416]]
         }
     },
 
