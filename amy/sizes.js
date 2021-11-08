@@ -19,5 +19,12 @@ module.exports = {
             dfp: [[960, 800], [828, 910]],
             appnexus: [[960, 800], [828, 910]]
         }
+    },
+
+    'outside-right': {
+    sizes: {
+        dfp: [[500, 1000]],
+            appnexus: [[500, 1000]]
     }
+},
 };
