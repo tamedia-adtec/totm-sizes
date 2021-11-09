@@ -21,6 +21,17 @@ module.exports = {
         }
     },
 
+    'inside-full-content': {
+        sizes: {
+            dfp: [[320,416]],
+            appnexus: [[320,416]]
+        },
+        blockedSizes: {
+            dfp: [[960, 800], [828, 910]],
+            appnexus: [[960, 800], [828, 910]]
+        }
+    },
+
     'outside-right': {
     sizes: {
         dfp: [[500, 1000]],
