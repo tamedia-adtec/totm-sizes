@@ -66,6 +66,24 @@ module.exports = {
             desktop: [[960, 800]]
         }
     },
+    'inside-pos2': {
+        overwrite : 'inside-pos',
+        blockedSizes: {},
+        forcedSizes: {
+            all: [],
+            mobile: [[828, 910]],
+            desktop: [[960, 800]]
+        }
+    },
+    'inside-pos5': {
+        overwrite : 'inside-pos',
+        blockedSizes: {},
+        forcedSizes: {
+            all: [],
+            mobile: [[828, 910]],
+            desktop: [[960, 800]]
+        }
+    },
 
     'inside-full-content': {
         sizes: {
