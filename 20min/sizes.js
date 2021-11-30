@@ -10,6 +10,7 @@ module.exports = {
         }
     },
 
+
     'inside-full-brandday': {
         options: {
             loadingRatio: 0.5
@@ -19,6 +20,7 @@ module.exports = {
             appnexus: [[320, 416]]
         }
     },
+
 
     'inside-full': {
         sizes: {

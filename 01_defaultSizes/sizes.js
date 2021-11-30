@@ -10,6 +10,10 @@ module.exports = {
         }
     },
 
+    'inside-top' : {
+      extends : 'inside-full-top'
+    },
+
     'inside-full-brandday': {
         options: {
             loadingRatio: 0.66
@@ -18,6 +22,10 @@ module.exports = {
             dfp: [[994, 250], [1200, 250]],
             appnexus: []
         }
+    },
+
+    'inside-brandday' : {
+        extends : 'inside-full-brandday'
     },
 
     'inside-full': {
@@ -34,6 +42,10 @@ module.exports = {
             mobile: [[828, 910]],
             desktop: [[960, 800]]
         }
+    },
+
+    'inside-pos' : {
+        extends : 'inside-full'
     },
 
     'inside-full-content': {
