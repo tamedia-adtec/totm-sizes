@@ -40,7 +40,7 @@ module.exports = {
 
 
     'inside-full-pos1': {
-        overwrite : 'inside-full',
+        overwrites : 'inside-full',
         blockedSizes: {},
         forcedSizes: {
             all: [],
@@ -49,7 +49,7 @@ module.exports = {
         }
     },
     'inside-full-pos3': {
-        overwrite : 'inside-full',
+        overwrites : 'inside-full',
         blockedSizes: {},
         forcedSizes: {
             all: [],
@@ -58,7 +58,7 @@ module.exports = {
         }
     },
     'inside-full-pos5': {
-        overwrite : 'inside-full',
+        overwrites : 'inside-full',
         blockedSizes: {},
         forcedSizes: {
             all: [],
@@ -67,7 +67,7 @@ module.exports = {
         }
     },
     'inside-pos2': {
-        overwrite : 'inside-pos',
+        overwrites : 'inside-pos',
         blockedSizes: {},
         forcedSizes: {
             all: [],
@@ -76,7 +76,7 @@ module.exports = {
         }
     },
     'inside-pos5': {
-        overwrite : 'inside-pos',
+        overwrites : 'inside-pos',
         blockedSizes: {},
         forcedSizes: {
             all: [],
@@ -97,7 +97,7 @@ module.exports = {
     },
 
     'inside-full-content-pos1': {
-        overwrite : 'inside-full-content',
+        overwrites : 'inside-full-content',
         blockedSizes: {
             dfp: [],
             appnexus: []
@@ -110,7 +110,7 @@ module.exports = {
     },
 
     'inside-full-content-pos3': {
-        overwrite : 'inside-full-content',
+        overwrites : 'inside-full-content',
         blockedSizes: {
             dfp: [],
             appnexus: []
@@ -123,7 +123,7 @@ module.exports = {
     },
 
     'inside-full-content-pos5': {
-        overwrite : 'inside-full-content',
+        overwrites : 'inside-full-content',
         blockedSizes: {
             dfp: [],
             appnexus: []
