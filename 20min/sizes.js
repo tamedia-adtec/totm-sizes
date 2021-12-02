@@ -66,8 +66,9 @@ module.exports = {
             desktop: [[960, 800]]
         }
     },
-    'inside-pos2': {
+    'inside-pos3': {
         overwrites : 'inside-pos',
+        pagePath : 'front', //Testing sections
         blockedSizes: {},
         forcedSizes: {
             all: [],
@@ -75,8 +76,9 @@ module.exports = {
             desktop: [[960, 800]]
         }
     },
-    'inside-pos5': {
+    'inside-pos6': {
         overwrites : 'inside-pos',
+        section : 'prime', //Testing sections
         blockedSizes: {},
         forcedSizes: {
             all: [],
