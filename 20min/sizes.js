@@ -68,7 +68,7 @@ module.exports = {
     },
     'inside-pos3': {
         overwrites : 'inside-pos',
-        pagePath : 'front', //Testing sections
+        section : 'prime', //Testing sections
         blockedSizes: {},
         forcedSizes: {
             all: [],
@@ -78,7 +78,7 @@ module.exports = {
     },
     'inside-pos6': {
         overwrites : 'inside-pos',
-        section : 'prime', //Testing sections
+        pagePath : 'front', //Testing sections
         blockedSizes: {},
         forcedSizes: {
             all: [],
