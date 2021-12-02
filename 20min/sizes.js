@@ -41,7 +41,7 @@ module.exports = {
 
     'inside-full-pos1': {
         overwrites : 'inside-full',
-        blockedSizes: {},
+        blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
             mobile: [[828, 910]],
@@ -50,7 +50,7 @@ module.exports = {
     },
     'inside-full-pos3': {
         overwrites : 'inside-full',
-        blockedSizes: {},
+        blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
             mobile: [[828, 910]],
@@ -59,7 +59,7 @@ module.exports = {
     },
     'inside-full-pos5': {
         overwrites : 'inside-full',
-        blockedSizes: {},
+        blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
             mobile: [[828, 910]],
@@ -68,7 +68,7 @@ module.exports = {
     },
     'inside-pos3': {
         overwrites : 'inside-pos',
-        blockedSizes: {},
+        blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
             mobile: [[828, 910]],
@@ -77,7 +77,7 @@ module.exports = {
     },
     'inside-pos6': {
         overwrites : 'inside-pos',
-        blockedSizes: {},
+        blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
             mobile: [[828, 910]],
