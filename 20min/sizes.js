@@ -208,5 +208,9 @@ module.exports = {
             dfp: [[1200, 250],[994,250],[300,250]],
             appnexus: []
         }
+    },
+
+    'outside-welcome': {
+        extends : 'outside-full-welcome'
     }
 };
