@@ -66,6 +66,14 @@ module.exports = {
             desktop: [[960, 800]]
         }
     },
+
+    'inside-pos':{
+        sizes: {
+            dfp: [[320, 480]], //DASB-2741
+            appnexus: [[320, 480]]//DASB-2741
+        },
+    },
+
     'inside-pos3': {
         overwrites : 'inside-pos',
         blockedSizes: {"dfp": [], "appnexus": []},
