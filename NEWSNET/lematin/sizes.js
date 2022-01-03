@@ -22,6 +22,10 @@ module.exports = {
             all: [[300, 250]],
             mobile: [],
             desktop: []
+        },
+        blockedSizes: {
+            dfp: [[960, 800], [828, 910]],
+            appnexus: [[960, 800], [828, 910]]
         }
     },
 
