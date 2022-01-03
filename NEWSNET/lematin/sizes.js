@@ -69,6 +69,10 @@ module.exports = {
             dfp: [[320, 480]], //DASB-2741
             appnexus: [[320, 480]]//DASB-2741
         },
+        blockedSizes: {
+            dfp: [[960, 800], [828, 910]],
+            appnexus: [[960, 800], [828, 910]]
+        }
     },
 
     'inside-pos3': {
