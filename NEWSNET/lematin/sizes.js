@@ -93,4 +93,12 @@ module.exports = {
             desktop: [[960, 800]]
         }
     },
+
+    'inside-sticky': {
+        sizes: {
+            dfp: [[1, 1]],
+            appnexus: []
+        }
+    }
+
 };
