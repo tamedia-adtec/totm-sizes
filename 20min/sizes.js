@@ -211,6 +211,10 @@ module.exports = {
         }
     },
 
+    'inside-sticky': {
+       extends :"inside-full-sticky"
+    },
+
     'outside-full-welcome': {
         sizes: {
             dfp: [[1200, 250],[994,250],[300,250]],
