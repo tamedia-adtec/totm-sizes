@@ -10,9 +10,9 @@ module.exports = {
         }
     },
 
-    'inside-full': {
+    'inside-pos': {
         sizes: {
-            dfp: [],
+            dfp: [300,600],
             appnexus: []
         },
         blockedSizes: {
