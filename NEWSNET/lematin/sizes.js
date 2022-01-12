@@ -99,6 +99,12 @@ module.exports = {
             dfp: [[1, 1]],
             appnexus: []
         }
-    }
+    },
 
+    'outside-welcome': {
+        sizes: {
+            dfp: [[1200, 250],[994,250],[300,250]],
+            appnexus: []
+        }
+    }
 };
