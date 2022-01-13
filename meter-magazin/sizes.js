@@ -21,17 +21,6 @@ module.exports = {
         }
     },
 
-    'inside-pos1': {
-        sizes: {
-            dfp: [300,600],
-            appnexus: []
-        },
-        blockedSizes: {
-            dfp: [[960, 800], [828, 910]],
-            appnexus: [[960, 800], [828, 910]]
-        }
-    },
-
     'inside-full-content': {
         sizes: {
             dfp: [[320,416]],
