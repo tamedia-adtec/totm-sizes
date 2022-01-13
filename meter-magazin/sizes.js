@@ -21,7 +21,7 @@ module.exports = {
         }
     },
 
-    'inside-pos': {
+    'inside-pos1': {
         sizes: {
             dfp: [300,600],
             appnexus: []
