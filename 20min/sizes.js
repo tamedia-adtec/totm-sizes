@@ -64,8 +64,8 @@ module.exports = {
 
     'inside-pos':{
         sizes: {
-            dfp: [[320, 480]], //DASB-2741
-            appnexus: [[320, 480]]//DASB-2741
+            dfp: [[300,600],[320, 480]], //DASB-2741
+            appnexus: [[300,600],[320, 480]]//DASB-2741
         },
     },
 
