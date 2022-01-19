@@ -27,11 +27,6 @@ module.exports = {
             dfp: [[320, 416], [760, 420], [994, 550],[300,600],[728,250],[1200,250],[320,480]],
             appnexus: [[320, 416],[300,600]]
         },
-        forcedSizes: {
-            all: [],
-            //to force this size on tablet
-            mobile: [[300, 250], [300, 600]]
-        },
         blockedSizes: {
             dfp: [[960, 800], [828, 910]],
             appnexus: [[960, 800], [828, 910]]
