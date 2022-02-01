@@ -66,7 +66,7 @@ module.exports = {
 
     'inside-content' : {
         overwrites : 'inside-full-content',
-        forcedSizes : {}
+        forcedSizes : {"all": [], "mobile": [[]], "desktop": [[]]}
     },
 
     'inside-half': {
