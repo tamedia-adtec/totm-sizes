@@ -64,6 +64,11 @@ module.exports = {
         }
     },
 
+    'inside-content' : {
+        overwrites : 'inside-full-content',
+        forcedSizes : {"all": [], "mobile": [[]], "desktop": [[]]}
+    },
+
     'inside-half': {
         sizes: {
             dfp: [],

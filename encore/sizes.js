@@ -1,9 +1,12 @@
 module.exports = {
 
-    'inside-full-content': {
+    'inside-content': {
         sizes: {
             dfp: [[320, 416]],
             appnexus: [[320, 416]]
+        },
+        options : {
+            checkContainerWidth:true
         }
     },
 
