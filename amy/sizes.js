@@ -22,6 +22,7 @@ module.exports = {
     },
 
     'inside-full-pos1': {
+        overwrites : 'inside-full',
         blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
@@ -31,6 +32,7 @@ module.exports = {
     },
 
     'inside-full-pos2': {
+        overwrites : 'inside-full',
         blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
