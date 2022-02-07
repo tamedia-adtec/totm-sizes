@@ -2,18 +2,28 @@ module.exports = {
 
     'inside-content': {
         sizes: {
-            dfp: [[320, 416]],
-            appnexus: [[320, 416]]
+            dfp: [[320, 416], [728, 90], [728, 250], [970, 250], [994, 118], [994, 250], [994, 500]],
+            appnexus: [[320, 416], [728, 90], [728, 250], [970, 250], [994, 118], [994, 250], [994, 500]]
         },
-        options : {
-            checkContainerWidth:true
+        forcedSizes: {
+            all: [],
+            mobile: [[828, 910]],
+            desktop: [[960, 800]]
+        },
+        options: {
+            checkContainerWidth: true
         }
+    },
+
+    'inside-content-top': {
+        overwrites: 'inside-content',
+        blockedSizes: {"dfp": [[960, 800]], "appnexus": [[960, 800]]},
     },
 
     'paid-inside': {
         sizes: {
-            dfp: [[1, 1],[300,250]],
-            appnexus: [[300,250]]
+            dfp: [[1, 1], [300, 250]],
+            appnexus: [[300, 250]]
         }
     }
 };
