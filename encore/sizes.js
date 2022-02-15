@@ -9,10 +9,7 @@ module.exports = {
             all: [],
             mobile: [[828, 910]],
             desktop: [[960, 800]]
-        },
-        options: {
-            checkContainerWidth: true
-        }
+         
     },
 
     'inside-content-top': {
