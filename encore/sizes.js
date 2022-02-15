@@ -9,7 +9,7 @@ module.exports = {
             all: [],
             mobile: [[828, 910]],
             desktop: [[960, 800]]
-         
+        }
     },
 
     'inside-content-top': {
