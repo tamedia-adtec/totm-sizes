@@ -19,7 +19,7 @@ module.exports = {
             loadingRatio: 0.66
         },
         sizes: {
-            dfp: [[994, 250], [1200, 250]],
+            dfp: [[320, 160], [994, 250], [1200, 250]],
             appnexus: []
         }
     },
