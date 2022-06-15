@@ -15,10 +15,10 @@ module.exports = {
         options: {
             loadingRatio: 0.62
         },
-        // DASB-811 640x320
+        // DASB-811 640x320, DASB-2920
         sizes: {
-            dfp: [[640, 320]],
-            appnexus: []
+            dfp: [[640, 320],[320, 416]],
+            appnexus: [[320, 416]]
         },
         blockedSizes: {
             dfp: [[994, 500]],
