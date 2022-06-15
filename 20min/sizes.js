@@ -113,7 +113,7 @@ module.exports = {
     },
 
     'inside-full-comment': {
-        extends : 'outside-full-welcome',
+        extends : 'inside-full',
         blockedSizes: {
             dfp: [],
             appnexus: []
