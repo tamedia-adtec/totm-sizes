@@ -1,7 +1,7 @@
 module.exports = {
     'inside-full-top': {
         sizes: {
-            dfp: [[760, 190], [300, 250], [336, 280],[728,250],[1200,250],[1200,500]],
+            dfp: [[760, 190], [300, 250], [336, 280], [728, 250], [1200, 250], [1200, 500]],
             appnexus: [[300, 250]]
         },
         blockedSizes: {
@@ -24,8 +24,8 @@ module.exports = {
 
     'inside-full': {
         sizes: {
-            dfp: [[320, 416], [760, 420], [994, 550],[300,600],[728,250],[1200,250],[320,480]],
-            appnexus: [[320, 416],[300,600]]
+            dfp: [[320, 416], [760, 420], [994, 550], [300, 600], [728, 250], [1200, 250], [320, 480]],
+            appnexus: [[320, 416], [300, 600]]
         },
         blockedSizes: {
             dfp: [[960, 800], [828, 910]],
@@ -35,7 +35,7 @@ module.exports = {
 
 
     'inside-full-pos1': {
-        overwrites : 'inside-full',
+        overwrites: 'inside-full',
         blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
@@ -44,7 +44,7 @@ module.exports = {
         }
     },
     'inside-full-pos3': {
-        overwrites : 'inside-full',
+        overwrites: 'inside-full',
         blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
@@ -53,7 +53,7 @@ module.exports = {
         }
     },
     'inside-full-pos5': {
-        overwrites : 'inside-full',
+        overwrites: 'inside-full',
         blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
@@ -62,15 +62,15 @@ module.exports = {
         }
     },
 
-    'inside-pos':{
+    'inside-pos': {
         sizes: {
-            dfp: [[300,600],[320, 480]], //DASB-2741
-            appnexus: [[300,600],[320, 480]]//DASB-2741
+            dfp: [[300, 600], [320, 480]], //DASB-2741
+            appnexus: [[300, 600], [320, 480]]//DASB-2741
         },
     },
 
     'inside-pos3': {
-        overwrites : 'inside-pos',
+        overwrites: 'inside-pos',
         blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
@@ -79,7 +79,7 @@ module.exports = {
         }
     },
     'inside-pos6': {
-        overwrites : 'inside-pos',
+        overwrites: 'inside-pos',
         blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
@@ -90,17 +90,17 @@ module.exports = {
 
     'inside-full-content': {
         sizes: {
-            dfp: [[320, 416],[300,600]],
-            appnexus: [[320, 416],[300,600]]
+            dfp: [[320, 416], [300, 600]],
+            appnexus: [[320, 416], [300, 600]]
         },
         blockedSizes: {
             dfp: [[960, 800], [828, 910]],
-            appnexus: [[960, 800], [828, 910],[320,416]]
+            appnexus: [[960, 800], [828, 910], [320, 416]]
         }
     },
 
     'inside-full-content-pos1': {
-        overwrites : 'inside-full-content',
+        overwrites: 'inside-full-content',
         blockedSizes: {
             dfp: [],
             appnexus: []
@@ -108,12 +108,12 @@ module.exports = {
         forcedSizes: {
             all: [],
             mobile: [[828, 910]],
-            desktop: [[960, 800],[320,416]]
+            desktop: [[960, 800], [320, 416]]
         }
     },
 
     'inside-full-content-pos3': {
-        overwrites : 'inside-full-content',
+        overwrites: 'inside-full-content',
         blockedSizes: {
             dfp: [],
             appnexus: []
@@ -121,12 +121,12 @@ module.exports = {
         forcedSizes: {
             all: [],
             mobile: [[828, 910]],
-            desktop: [[960, 800],[320,416]]
+            desktop: [[960, 800], [320, 416]]
         }
     },
 
     'inside-full-content-pos5': {
-        overwrites : 'inside-full-content',
+        overwrites: 'inside-full-content',
         blockedSizes: {
             dfp: [],
             appnexus: []
@@ -134,25 +134,24 @@ module.exports = {
         forcedSizes: {
             all: [],
             mobile: [[828, 910]],
-            desktop: [[960, 800],[320,416]]
+            desktop: [[960, 800], [320, 416]]
         }
     },
 
 
     'inside-full-content-end': {
         sizes: {
-            dfp: [[300, 250], [320, 50], [320, 64], [320, 160], [336, 280], [728, 90], [728, 250], [970, 250], [994, 118], [994, 250],[320, 416],[300,600]],
-            appnexus: [[994, 250], [970, 250], [728, 90], [728, 250], [300, 250], [320, 160], [320, 50], [320, 64],[320, 416],[300,600]]
+            dfp: [[300, 250], [320, 50], [320, 64], [320, 160], [336, 280], [728, 90], [728, 250], [970, 250], [994, 118], [994, 250], [320, 416], [300, 600]],
+            appnexus: [[994, 250], [970, 250], [728, 90], [728, 250], [300, 250], [320, 160], [320, 50], [320, 64], [320, 416], [300, 600]]
         },
         blockedSizes: {
-            dfp: [[960, 800],[828, 910]],
-            appnexus: [[960, 800],[828, 910],[320,416]]
+            dfp: [[960, 800], [828, 910]],
+            appnexus: [[960, 800], [828, 910], [320, 416]]
         }
     },
-
     'inside-full-recommender': {
         sizes: {
-            dfp: [],
+            dfp: [[1, 1], [300, 250]],
             appnexus: []
         }
     },
@@ -194,8 +193,8 @@ module.exports = {
     },
     'paid-inside': {
         sizes: {
-            dfp: [[1, 1],[300,250]],
-            appnexus: [[300,250]]
+            dfp: [[1, 1], [300, 250]],
+            appnexus: [[300, 250]]
         }
     },
 
@@ -207,17 +206,17 @@ module.exports = {
     },
 
     'inside-sticky': {
-       extends :"inside-full-sticky"
+        extends: "inside-full-sticky"
     },
 
     'outside-full-welcome': {
         sizes: {
-            dfp: [[1200, 250],[994,250],[300,250]],
+            dfp: [[1200, 250], [994, 250], [300, 250]],
             appnexus: []
         }
     },
 
     'outside-welcome': {
-        extends : 'outside-full-welcome'
+        extends: 'outside-full-welcome'
     }
 };

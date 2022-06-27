@@ -22,6 +22,9 @@ module.exports = {
     },
 
     'inside-full-content': {
+
+        extends : "inside-full-content",
+
         sizes: {
             dfp: [[320,416]],
             appnexus: [[320,416]]

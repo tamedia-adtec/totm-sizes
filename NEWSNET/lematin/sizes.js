@@ -100,6 +100,12 @@ module.exports = {
             appnexus: []
         }
     },
+    'inside-full-recommender': {
+        sizes: {
+            dfp: [[1, 1], [300, 250]],
+            appnexus: []
+        }
+    },
 
     'outside-welcome': {
         sizes: {
