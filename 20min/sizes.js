@@ -112,6 +112,19 @@ module.exports = {
         }
     },
 
+    'inside-full-comment': {
+        extends : 'inside-full',
+        blockedSizes: {
+            dfp: [],
+            appnexus: []
+        },
+        forcedSizes: {
+            all: [],
+            mobile: [],
+            desktop: [[320,416], [300,250]]
+        }
+    },
+
     'inside-full-content-pos3': {
         overwrites: 'inside-full-content',
         blockedSizes: {
