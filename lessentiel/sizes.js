@@ -54,5 +54,28 @@ module.exports = {
             dfp: [[1, 1]],
             appnexus: []
         }
-    }
+    },
+
+    'outside-full-welcome': {
+        sizes: {
+            dfp: [[1200, 250], [994, 250], [300, 250]],
+            appnexus: []
+        }
+    },
+
+    'outside-welcome': {
+        extends: 'outside-full-welcome'
+    },
+
+    'inside-full-sticky': {
+        sizes: {
+            dfp: [[1, 1]],
+            appnexus: []
+        }
+    },
+
+    'inside-sticky': {
+        extends: "inside-full-sticky"
+    },
+
 };
