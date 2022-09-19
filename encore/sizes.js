@@ -13,7 +13,9 @@ module.exports = {
     },
 
     'inside-content-top': {
-        overwrites: 'inside-content',
+        extends: 'inside-content',
+        dfp: [[300, 200]],
+        appnexus: [[300, 200]],
         blockedSizes: {"dfp": [[960, 800]], "appnexus": [[960, 800]]},
     },
 
