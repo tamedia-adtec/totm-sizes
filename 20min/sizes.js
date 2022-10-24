@@ -240,5 +240,12 @@ module.exports = {
 
     'outside-welcome': {
         extends: 'outside-full-welcome'
+    },
+
+    'partner-ad' : {
+        sizes: {
+            dfp: [[1,1],[320,180]],
+            appnexus: []
+        }
     }
 };
