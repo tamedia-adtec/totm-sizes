@@ -99,8 +99,8 @@ module.exports = {
 
     'inside-full-content': {
         sizes: {
-            dfp: [[320, 416], [300, 600], [320, 480]],
-            appnexus: [[320, 416], [300, 600], [320, 480]]
+            dfp: [[320, 416], [320, 480]],
+            appnexus: [[320, 416], [320, 480]]
         },
         blockedSizes: {
             dfp: [[960, 800], [828, 910]],
