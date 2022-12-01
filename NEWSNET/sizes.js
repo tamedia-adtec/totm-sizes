@@ -25,6 +25,14 @@ module.exports = {
         }
     },
 
+    'inside-full-pos1': {
+        extends : 'inside-full',
+        sizes: {
+            dfp: [[994, 560]],
+            appnexus: []
+        }
+    },
+
     'inside-full-content': {
         sizes: {
             dfp: [[300, 250],[320,416],[300,600]],
