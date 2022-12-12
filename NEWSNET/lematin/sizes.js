@@ -2,7 +2,7 @@ module.exports = {
 
     'inside-full-top': {
         sizes: {
-            dfp: [[760, 190], [300, 250], [1200, 250],[300,200]],
+            dfp: [[760, 190], [300, 250], [1200, 250],[300,200], [994, 560]],
             appnexus: [[760, 190], [300, 250],[300,200]]
         },
 
@@ -26,6 +26,14 @@ module.exports = {
         blockedSizes: {
             dfp: [[960, 800], [828, 910]],
             appnexus: [[960, 800], [828, 910]]
+        }
+    },
+
+    'inside-full-pos1': {
+        extends : 'inside-full',
+        sizes: {
+            dfp: [[994, 560]],
+            appnexus: []
         }
     },
 
@@ -53,13 +61,6 @@ module.exports = {
     'paid-inside': {
         sizes: {
             dfp: [[1, 1]],
-            appnexus: []
-        }
-    },
-
-    'inside-full-recommender': {
-        sizes: {
-            dfp: [],
             appnexus: []
         }
     },

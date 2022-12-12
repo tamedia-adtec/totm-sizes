@@ -13,6 +13,13 @@ module.exports = {
         }
     },
 
+    'inside-download': {
+        sizes: {
+            dfp: [[300, 250]],
+            appnexus: []
+        }
+    },
+
     'inside-full-pos': {
         sizes: {
             dfp: [],
