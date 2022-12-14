@@ -2,8 +2,8 @@ module.exports = {
     // add extra sizes PP-664, ADT-395
     'inside-full-top': {
         sizes: {
-            dfp: [[720,145],[1024,122], [320,250],[300,200]],
-            appnexus: [[300,200]]
+            dfp: [[720, 145], [1024, 122], [994, 560], [320, 250], [300, 200]],
+            appnexus: [[300, 200]]
         },
 
         forcedSizes: {
@@ -20,9 +20,9 @@ module.exports = {
         },
 
         forcedSizes: {
-            all: [[320,67]],
+            all: [[320, 67]],
             mobile: [[1024, 206]],
-            desktop: [[994,100],[994,150]]
+            desktop: [[994, 100], [994, 150]]
         }
 
     },
@@ -31,8 +31,8 @@ module.exports = {
     // add extra sizes PP-664, ADT-395, ADT-609
     'inside-full': {
         sizes: {
-            dfp: [[320, 416],[720,145], [320,250], [320,480], [300,600]],
-            appnexus: [[320, 416],[300, 600]]
+            dfp: [[320, 416], [720, 145], [320, 250], [320, 480], [300, 600]],
+            appnexus: [[320, 416], [300, 600]]
         }
     },
 
@@ -45,47 +45,47 @@ module.exports = {
     },
 
     'gallery': {
-        sizes : {
+        sizes: {
             dfp: [[468, 400]],
-            appnexus : [[468, 400]]
+            appnexus: [[468, 400]]
         }
     },
 
     'inside-half': {
-        sizes : {
+        sizes: {
             dfp: [[468, 400]],
-            appnexus : [[468, 400]]
+            appnexus: [[468, 400]]
         }
     },
 
     'outside-right': {
-        sizes : {
-            dfp: [[500, 1000], [300,600]],
-            appnexus : [[500, 1000]]
+        sizes: {
+            dfp: [[500, 1000], [300, 600]],
+            appnexus: [[500, 1000]]
         }
     },
     'content-ad': {
-        sizes : {
-            dfp: [[1,1]],
-            appnexus : []
+        sizes: {
+            dfp: [[1, 1]],
+            appnexus: []
         }
     },
     'branding_quarter': {
-        sizes : {
-            dfp: [[300,250]],
-            appnexus : [[1,1]]
+        sizes: {
+            dfp: [[300, 250]],
+            appnexus: [[1, 1]]
         }
     },
     'branding_half': {
-        sizes : {
-            dfp: [[468,400], [640, 400]],
-            appnexus : [[1,1]]
+        sizes: {
+            dfp: [[468, 400], [640, 400]],
+            appnexus: [[1, 1]]
         }
     },
-    'paid-inside':{
-        sizes : {
-            dfp: [[1,1]],
-            appnexus : []
+    'paid-inside': {
+        sizes: {
+            dfp: [[1, 1]],
+            appnexus: []
         }
     }
 
