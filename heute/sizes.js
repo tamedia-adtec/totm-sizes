@@ -41,71 +41,67 @@ module.exports = {
         }
     },
 
-    'inside-full-pos2':
-        {
-            overwrites: 'inside-full',
-            sizes: {
-                dfp: [[300, 250], [320, 250], [300, 1]],
-                appnexus: [[300, 250], [320, 250], [300, 1], [560, 350]]
-            },
-            forcedSizes: {
-                all: [],
-                mobile: [[300, 600], [320, 480], [320, 160], [336, 280], [320, 50], [300, 50], [300, 100]],
-                desktop: [[560,350]]
-            }
+    'inside-full-pos2': {
+        overwrites: 'inside-full',
+        sizes: {
+            dfp: [[300, 250], [320, 250], [300, 1]],
+            appnexus: [[300, 250], [320, 250], [300, 1], [560, 350]]
         },
-    'inside-full-pos3':
-        {
-            overwrites: 'inside-full',
-            forcedSizes: {
-                all: [],
-                mobile: [[300, 250], [320, 250], [300, 600], [320, 480], [320, 160], [336, 280], [320, 50], [300, 50], [300, 100]],
-                desktop: []
-            },
-            blockedSizes: {
-                dfp: [[320, 320], [250, 250], [200, 200]],
-                appnexus: [[320, 320], [250, 250], [200, 200]]
-            }
-        },
-
-    'inside-half':
-        {
-            sizes: {
-                dfp: [[468, 400], [300, 250]],
-                appnexus: []
-            }
-        },
-
-    'outside-right':
-        {
-            overwrites: 'outside-right',
-            sizes: {
-                dfp: [[160, 600], [300, 600], [500, 1000]],
-                appnexus: [[160, 600], [300, 600], [500, 1000]]
-            }
-        },
-
-    'outside-left':
-        {
-
-            sizes: {
-                dfp: [[160, 600]],
-                appnexus: []
-            }
-        },
-    'inside-quarter-pos1':
-        {
-            sizes: {
-                dfp: [[1, 1], [300, 250]],
-                appnexus: [[1, 1], [300, 250]]
-            }
-        },
-    'inside-third':
-        {
-            sizes: {
-                dfp: [[1, 1], [300, 250], [300, 600]],
-                appnexus: [[1, 1], [300, 250], [300, 600]]
-            }
+        forcedSizes: {
+            all: [],
+            mobile: [[300, 600], [320, 480], [320, 160], [336, 280], [320, 50], [300, 50], [300, 100]],
+            desktop: [[560, 350]]
         }
-}
-;
+    },
+    'inside-full-pos3': {
+        overwrites: 'inside-full',
+        forcedSizes: {
+            all: [],
+            mobile: [[300, 250], [320, 250], [300, 600], [320, 480], [320, 160], [336, 280], [320, 50], [300, 50], [300, 100]],
+            desktop: []
+        },
+        blockedSizes: {
+            dfp: [[320, 320], [250, 250], [200, 200]],
+            appnexus: [[320, 320], [250, 250], [200, 200]]
+        }
+    },
+
+    'inside-half': {
+        sizes: {
+            dfp: [[468, 400], [300, 250]],
+            appnexus: []
+        }
+    },
+
+    'outside-right': {
+        overwrites: 'outside-right',
+        sizes: {
+            dfp: [[160, 600], [300, 600], [500, 1000]],
+            appnexus: [[160, 600], [300, 600], [500, 1000]]
+        },
+        blockedSizes: {
+            dfp: [[245, 770]],
+            appnexus: [[245, 770]]
+        }
+    },
+
+    'outside-left': {
+
+        sizes: {
+            dfp: [[160, 600]],
+            appnexus: []
+        }
+    },
+    'inside-quarter-pos1': {
+        sizes: {
+            dfp: [[1, 1], [300, 250]],
+            appnexus: [[1, 1], [300, 250]]
+        }
+    },
+    'inside-third': {
+        sizes: {
+            dfp: [[1, 1], [300, 250], [300, 600]],
+            appnexus: [[1, 1], [300, 250], [300, 600]]
+        }
+    }
+};
