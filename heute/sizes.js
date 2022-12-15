@@ -79,8 +79,10 @@ module.exports = {
     'outside-right':
         {
             overwrites: 'outside-right',
-            dfp: [[160, 600], [300, 600], [500, 1000]],
-            appnexus: [[160, 600], [300, 600], [500, 1000]]
+            sizes: {
+                dfp: [[160, 600], [300, 600], [500, 1000]],
+                appnexus: [[160, 600], [300, 600], [500, 1000]]
+            }
         },
 
     'outside-left':
