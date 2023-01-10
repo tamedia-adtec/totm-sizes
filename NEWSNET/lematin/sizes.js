@@ -3,7 +3,7 @@ module.exports = {
     'inside-full-top': {
         sizes: {
             dfp: [[760, 190], [300, 250], [1200, 250],[300,200], [994, 560]],
-            appnexus: [[760, 190], [300, 250],[300,200]]
+            appnexus: [[760, 190], [300, 250],[300,200], [994, 560]]
         },
 
         forcedSizes: {
@@ -33,7 +33,7 @@ module.exports = {
         extends : 'inside-full',
         sizes: {
             dfp: [[994, 560]],
-            appnexus: []
+            appnexus: [[994, 560]]
         }
     },
 

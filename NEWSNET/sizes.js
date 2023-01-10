@@ -29,7 +29,7 @@ module.exports = {
         extends : 'inside-full',
         sizes: {
             dfp: [[994, 560]],
-            appnexus: []
+            appnexus: [[994, 560]]
         }
     },
 
