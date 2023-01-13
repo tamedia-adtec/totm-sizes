@@ -12,7 +12,12 @@ module.exports = {
 
         }
     },
-
+    'inside-full-top': {
+        blockedSizes: {
+            dfp: [],
+            appnexus: [[994, 500]]
+        }
+    },
     'outside-left': {
         sizes: {
             dfp: [[160, 600], [300, 600], [245, 770]],
