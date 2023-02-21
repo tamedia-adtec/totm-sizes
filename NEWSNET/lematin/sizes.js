@@ -1,5 +1,6 @@
 module.exports = {
 
+
     'inside-full-top': {
         sizes: {
             dfp: [[760, 190], [300, 250], [320, 416],[1200, 250],[300,200], [994, 560]],
@@ -15,8 +16,8 @@ module.exports = {
 
     'inside-full': {
         sizes: {
-            dfp: [[320, 416], [300, 600], [994, 550], [760, 420], [300, 600],[320,480]],
-            appnexus: [[320, 416], [300, 600]]
+            dfp: [[320, 416], [300, 600], [994, 550], [760, 420], [300, 600], [320, 480], [994, 500]],
+            appnexus: [[320, 416], [300, 600], [994, 500]]
         },
         forcedSizes: {
             all: [[300, 250]],
@@ -30,7 +31,7 @@ module.exports = {
     },
 
     'inside-full-pos1': {
-        extends : 'inside-full',
+        extends: 'inside-full',
         sizes: {
             dfp: [[994, 560]],
             appnexus: [[994, 560]]
@@ -39,8 +40,8 @@ module.exports = {
 
     'inside-full-content': {
         sizes: {
-            dfp: [[300, 250],[320,416],[300,600]],
-            appnexus: [[300, 250],[320,416],[300,600]]
+            dfp: [[300, 250], [320, 416], [300, 600]],
+            appnexus: [[300, 250], [320, 416], [300, 600]]
         },
 
         forcedSizes: {
@@ -65,7 +66,7 @@ module.exports = {
         }
     },
 
-    'inside-pos':{
+    'inside-pos': {
         sizes: {
             dfp: [[320, 480]], //DASB-2741
             appnexus: [[320, 480]]//DASB-2741
@@ -77,7 +78,7 @@ module.exports = {
     },
 
     'inside-pos3': {
-        overwrites : 'inside-pos',
+        overwrites: 'inside-pos',
         blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
@@ -86,7 +87,7 @@ module.exports = {
         }
     },
     'inside-pos6': {
-        overwrites : 'inside-pos',
+        overwrites: 'inside-pos',
         blockedSizes: {"dfp": [], "appnexus": []},
         forcedSizes: {
             all: [],
@@ -110,7 +111,7 @@ module.exports = {
 
     'outside-welcome': {
         sizes: {
-            dfp: [[1200, 250],[994,250],[300,250]],
+            dfp: [[1200, 250], [994, 250], [300, 250]],
             appnexus: []
         }
     }
