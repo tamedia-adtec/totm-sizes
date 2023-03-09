@@ -12,8 +12,8 @@ module.exports = {
             desktop: [[728, 90]]
         },
         blockedSizes: {
-            dfp: [[994, 500]],
-            appnexus: [[994, 500]]
+            dfp: [[994, 500], [994, 560]],
+            appnexus: [[994, 500], [994, 560]]
         }
     },
 
