@@ -94,8 +94,7 @@ module.exports = {
         }
     },
 
-    'inside-quarter-pos': {
-        //only called on FUW special sites
+    'inside-quarter': {
         sizes: {
             dfp: [[926,380], [447,380], [287,320], [320,380], [728,250], [300,416], [300,250]],
             appnexus: []
