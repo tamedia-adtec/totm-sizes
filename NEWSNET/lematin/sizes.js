@@ -1,19 +1,6 @@
 module.exports = {
 
 
-    'outside-welcome' : {
-        overwrites : 'outside-welcome',
-        sizes: {
-            dfp: [],
-            appnexus: []
-        },
-        forcedSizes: {
-            all: [],
-            mobile: [[320,160],[300,250]],
-            desktop: []
-        }
-    },
-
     'inside-full-top': {
         sizes: {
             dfp: [[760, 190], [300, 250], [320, 416], [1200, 250], [300, 200], [994, 560]],
@@ -123,9 +110,10 @@ module.exports = {
     },
 
     'outside-welcome': {
-        sizes: {
-            dfp: [[1200, 250], [994, 250], [300, 250], [320, 160]],
-            appnexus: []
+        forcedSizes: {
+            all: [],
+            mobile: [[320,160],[300,250]],
+            desktop: []
         }
     }
 };
