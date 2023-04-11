@@ -110,15 +110,9 @@ module.exports = {
     },
 
     'outside-welcome': {
-
         sizes: {
-          dfp: [],
-          appnexus : []
-        },
-        forcedSizes: {
-            all: [],
-            mobile: [[320,160],[300,250]],
-            desktop: []
+            dfp: [[1200, 250], [994, 250], [300, 250], [320, 160]],
+            appnexus: []
         }
     }
 };
