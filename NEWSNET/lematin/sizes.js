@@ -110,6 +110,9 @@ module.exports = {
     },
 
     'outside-welcome': {
+        options: {
+            loadingRatio: 0.66
+        },
         sizes: {
             dfp: [[1200, 250], [994, 250], [300, 250], [320, 160]],
             appnexus: []
