@@ -85,4 +85,13 @@ module.exports = {
         extends: "inside-full-sticky"
     },
 
+    'inside-pos1': {
+        extends : 'inside-full',
+        blockedSizes: {
+            dfp: [[300,600],[320,480]],
+            appnexus: [[300,600],[320,480]]
+        }
+    },
+
+
 };
