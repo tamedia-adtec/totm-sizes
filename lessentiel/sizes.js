@@ -87,7 +87,7 @@ module.exports = {
 
     'inside-pos1': {
         extends : 'inside-full',
-        blockedSizes: {
+        sizes: {
             dfp: [[300,600],[320,480]],
             appnexus: [[300,600],[320,480]]
         }
