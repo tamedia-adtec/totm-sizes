@@ -41,23 +41,6 @@ module.exports = {
         }
     },
 
-    'inside-full-pos4': {
-        overwrites: 'inside-full',
-        sizes: {
-            dfp: [[300, 250], [320, 250], [300, 1]],
-            appnexus: [[300, 250], [320, 250], [300, 1]]
-        },
-        forcedSizes: {
-            all: [],
-            mobile: [[300, 600], [320, 480], [320, 160], [336, 280], [320, 50], [300, 50], [300, 100]],
-            desktop: []
-        },
-        blockedSizes: {
-            dfp: [],
-            appnexus: []
-        }
-    },
-
     'inside-full-pos2': {
         overwrites: 'inside-full',
         sizes: {
