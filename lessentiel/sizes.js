@@ -40,12 +40,10 @@ module.exports = {
             appnexus: []
         }
     },
-
-
-    'gallery': {
+    'inside-gallery': {
         sizes: {
-            dfp: [[468, 400]],
-            appnexus: [[468, 400]]
+            dfp: [[1, 1], [300, 250]],
+            appnexus: [[300, 250]]
         }
     },
 
@@ -86,10 +84,10 @@ module.exports = {
     },
 
     'inside-pos1': {
-        extends : 'inside-full',
+        extends: 'inside-full',
         sizes: {
-            dfp: [[300,600],[320,480]],
-            appnexus: [[300,600],[320,480]]
+            dfp: [[300, 600], [320, 480]],
+            appnexus: [[300, 600], [320, 480]]
         }
     },
 
