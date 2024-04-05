@@ -32,8 +32,8 @@ module.exports = {
     'inside-full-pos1': {
         extends: 'inside-full',
         sizes: {
-            dfp: [[994, 560]],
-            appnexus: [[994, 560]]
+            dfp: [[994, 560],[300, 200]],
+            appnexus: [[994, 560],[300, 200]]
         }
     },
 
