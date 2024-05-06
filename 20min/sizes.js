@@ -102,27 +102,10 @@ module.exports = {
             dfp: [[320, 416], [320, 480]],
             appnexus: [[320, 416], [320, 480]]
         },
-        blockedSizes: {
-            dfp: [[960, 800], [828, 910]],
-            appnexus: [[960, 800], [828, 910], [320, 416]]
-        },
         forcedSizes: {
             all: [],
             mobile: [[300, 600]],
             desktop: []
-        }
-    },
-
-    'inside-full-content-pos1': {
-        overwrites: 'inside-full-content',
-        blockedSizes: {
-            dfp: [],
-            appnexus: []
-        },
-        forcedSizes: {
-            all: [],
-            mobile: [[828, 910]],
-            desktop: [[960, 800], [320, 416]]
         }
     },
 
