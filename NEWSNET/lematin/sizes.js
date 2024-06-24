@@ -53,7 +53,7 @@ module.exports = {
         forcedSizes: {
             all: [],
             mobile: [],
-            desktop: [[300, 250]]
+            desktop: [[300, 250],[320, 416]] //DASB-4686
         }
     },
 
