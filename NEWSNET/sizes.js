@@ -31,6 +31,9 @@ module.exports = {
 
     'inside-full-pos1': {
         extends: 'inside-full',
+        options: {
+            explicit : true // this config will only work for pos1 not for pos10 or pos11
+        },
         sizes: {
             dfp: [[994, 560],[300, 200]],
             appnexus: [[994, 560],[300, 200]]
