@@ -24,8 +24,8 @@ module.exports = {
         },
         forcedSizes: {
             all: [[300, 250]],
-            mobile: [[320, 569]],
-            desktop: [[371, 660], [338, 600]]
+            mobile: [[320, 569], [371, 660], [338, 600]],
+            desktop: []
         }
     },
 
@@ -48,8 +48,8 @@ module.exports = {
 
         forcedSizes: {
             all: [],
-            mobile: [[320, 569]],
-            desktop: [[371, 660], [338, 600], [300, 250]]
+            mobile: [[320, 569],[371, 660], [338, 600]],
+            desktop: [[300, 250]]
         }
     },
     'inside-full-content-pos1': {
