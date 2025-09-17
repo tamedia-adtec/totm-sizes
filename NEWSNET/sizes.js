@@ -109,5 +109,13 @@ module.exports = {
             dfp: [[926, 380], [447, 380], [287, 320], [320, 380], [728, 250], [300, 416], [300, 250]],
             appnexus: []
         }
-    }
+    },
+
+    'inside-full-comment': {
+        extends: 'inside-full',
+        blockedSizes: {
+            dfp: [[320,481]],
+            appnexus: [[320,481]]
+        }
+    },
 }
