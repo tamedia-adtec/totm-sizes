@@ -114,8 +114,8 @@ module.exports = {
     'inside-full-comment': {
         extends: 'inside-full',
         blockedSizes: {
-            dfp: [[320,481]],
-            appnexus: [[320,481]]
+            dfp: [[320,481],[960,800],[828,910]],
+            appnexus: [[320,481],[960,800],[828,910]]
         }
     },
 }
