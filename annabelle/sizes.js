@@ -20,8 +20,8 @@ module.exports = {
         },
 
         blockedSizes: {
-            dfp: [[728,90]],
-            appnexus: [[728,90]]
+            dfp: [[728,90],[828, 910],[960, 800]],
+            appnexus: [[728,90],[828, 910],[960, 800]]
         }
     },
 
@@ -35,8 +35,8 @@ module.exports = {
         //DASB-3116
         forcedSizes: {
             all: [],
-            mobile: [],
-            desktop: []
+            mobile: [[828, 910]],
+            desktop: [[960, 800]]
         }
     },
 
