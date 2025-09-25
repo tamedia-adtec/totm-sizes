@@ -37,6 +37,11 @@ module.exports = {
             dfp: [[300,200],[994,560]],
             appnexus: [[300,200],[994,560]]
 
+        },
+
+        blockedSizes: {
+            dfp: [[320,480]],
+            appnexus: [[320,480]]
         }
     },
 
