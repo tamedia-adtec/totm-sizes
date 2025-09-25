@@ -35,8 +35,8 @@ module.exports = {
         //DASB-3116
         forcedSizes: {
             all: [],
-            mobile: [[828, 910]],
-            desktop: [[960, 800]]
+            mobile: [],
+            desktop: []
         }
     },
 
