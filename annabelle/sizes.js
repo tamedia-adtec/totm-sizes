@@ -56,6 +56,14 @@ module.exports = {
         }
     },
 
+    'inside-full-content-pos2': {
+        extends: 'inside-full-content',
+        blockedSizes: {
+            dfp: [[994,560]],
+            appnexus: [[994,560]]
+        }
+    },
+
     'outside-right': {
         sizes: {
             dfp: [[500, 1000]],
