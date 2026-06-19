@@ -73,7 +73,7 @@ module.exports = {
     'outside-left': {
 
         sizes: {
-            dfp: [[160, 600]],
+            dfp: [[160, 600],[300, 600]],
             appnexus: []
         }
     },
