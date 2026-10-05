@@ -39,6 +39,9 @@ module.exports = {
             appnexus: [[994, 560], [300, 200]]
         }
     },
+    'inside-video-pos': {
+        extends: 'inside-full'
+    },
 
     'inside-full-content': {
         sizes: {
