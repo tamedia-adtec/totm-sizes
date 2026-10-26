@@ -81,7 +81,7 @@ module.exports = {
 
         sizes: {
             dfp: [[160, 600],[300, 600]],
-            appnexus: []
+            appnexus: [[160, 600],[300, 600]]
         }
     },
 
