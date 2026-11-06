@@ -69,6 +69,14 @@ module.exports = {
             appnexus: [[994, 560], [300, 200]]
         }
     },
+    // DASB-6392 the P4 and Nau special formats on 320x481 clash with the paywall below the article
+    'inside-full-content-end': {
+        extends: 'inside-full-content',
+        blockedSizes: {
+            dfp: [[320, 481]],
+            appnexus: [[320, 481]]
+        }
+    },
 
     'outside-right': {
         sizes: {
